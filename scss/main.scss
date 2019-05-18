@@ -20,35 +20,34 @@
   }
   
   @font-face {
-    font-family: "Lato";
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
-    font-weight: 300;
-    src: local("Lato-Light"), local("Lato-Light"),
+    font-weight: 400;
+    src: local("Raleway"), local("Raleway"),
     url(https://fonts.gstatic.com/roboto.woff2) format('woff2'),
     url(https://fonts.gstatic.com/roboto.woff) format('woff');
-    font-display: swap;
+    font-display: optional;
   }
   @font-face {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
-    font-weight: 700;
-    src: local("Lora"), local("Lora"),
+    font-weight: 600;
+    src: local("Raleway"), local("Raleway"),
     url(https://fonts.gstatic.com/roboto.woff2) format('woff2'),
     url(https://fonts.gstatic.com/roboto.woff) format('woff');
-    font-display: swap;
+    font-display: optional;
   }
   
   body {
     font-size: 16px;
-    line-height: 1.4;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     background: $white;
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
     height: 100%;
-    max-width: 100%;
-    width: 100%;
+    overflow: hidden;
   }
   
   
@@ -79,14 +78,14 @@
     background-color: $extra-light-gray;
   }
   ::-webkit-scrollbar-thumb {
-    background-color: rgba($color: $brand-red, $alpha: .7);
+    background-color: rgba($color: $brand-color, $alpha: .7);
   }
   ::-webkit-scrollbar-thumb:hover {
-    background-color: rgba($color: $brand-red, $alpha: .7);
+    background-color: rgba($color: $brand-color, $alpha: .7);
   }
   
   p {
-    font-family: 'Lato' sans-serif;
+    font-family: 'Raleway' sans-serif;
     color: $font-color;
     text-align: center;
     text-justify: inter-word;
@@ -97,18 +96,19 @@
     text-decoration: none;
   
     &:hover {
-      color: darken($color: $brand-red, $amount: 10%);
+      color: darken($color: $brand-color, $amount: 10%);
     }
     &:focus {
-      color: lighten($color: $brand-red, $amount: 8%);
+      color: lighten($color: $brand-color, $amount: 8%);
     }
     &:visited {
-      color: lighten($color: $brand-red, $amount: 4%);
+      color: lighten($color: $brand-color, $amount: 4%);
     }
   }
     
   img {
     border: none;
+    outline: none;
     max-width: 100%;
     width: 100%;
     -o-object-fit: cover;
@@ -118,8 +118,8 @@
   }
     
     
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lora', serif;
+  h1, h2, h3, h4 {
+    font-family: 'Raleway', serif;
     color: $brand-font;
     margin: 0;
     padding: 0;

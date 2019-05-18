@@ -1,37 +1,29 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,600&display=swap");
-/* Coolors Exported Palette - coolors.co/0a2463-3e92cc-fffaff-d8315b-1e1b18 */
-/* HSL */
-/* RGB */
-/* Coolors Exported Palette - coolors.co/ffe74c-ff5964-ffffff-38618c-35a7ff */
-/* HSL */
-/* RGB */
 /* Coolors Exported Palette - coolors.co/ffbe0b-fb5607-ff006e-8338ec-3a86ff */
 /* HSL */
 /* RGB */
-/*hand writing*/
-@font-face {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 300;
-  src: local("Lato-Light"), local("Lato-Light"), url(https://fonts.gstatic.com/roboto.woff2) format("woff2"), url(https://fonts.gstatic.com/roboto.woff) format("woff");
-  font-display: swap; }
 @font-face {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
-  font-weight: 700;
-  src: local("Lora"), local("Lora"), url(https://fonts.gstatic.com/roboto.woff2) format("woff2"), url(https://fonts.gstatic.com/roboto.woff) format("woff");
-  font-display: swap; }
+  font-weight: 400;
+  src: local("Raleway"), local("Raleway"), url(https://fonts.gstatic.com/roboto.woff2) format("woff2"), url(https://fonts.gstatic.com/roboto.woff) format("woff");
+  font-display: optional; }
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  src: local("Raleway"), local("Raleway"), url(https://fonts.gstatic.com/roboto.woff2) format("woff2"), url(https://fonts.gstatic.com/roboto.woff) format("woff");
+  font-display: optional; }
 body {
   font-size: 16px;
-  line-height: 1.4;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  background: #ffffff;
+  background: #fff;
   font-family: 'Raleway', sans-serif;
   margin: 0;
   padding: 0;
   height: 100%;
-  max-width: 100%;
-  width: 100%; }
+  overflow: hidden; }
 
 :root {
   -webkit-box-sizing: border-box;
@@ -46,7 +38,7 @@ body {
 
 ::-webkit-scrollbar {
   width: 7px;
-  border: 1px solid #868e96;
+  border: 1px solid #9a8f97;
   border-radius: .8em; }
   @media screen and (max-width: 60em) {
     ::-webkit-scrollbar {
@@ -58,29 +50,30 @@ body {
   background-color: #f8f9fa; }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgba(255, 0, 0, 0.7); }
+  background-color: rgba(58, 134, 255, 0.7); }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: rgba(255, 0, 0, 0.7); }
+  background-color: rgba(58, 134, 255, 0.7); }
 
 p {
-  font-family: 'Lato' sans-serif;
-  color: #1c1532;
+  font-family: 'Raleway' sans-serif;
+  color: #040a11;
   text-align: center;
   text-justify: inter-word;
-  color: #1c1532; }
+  color: #040a11; }
 
 a {
   text-decoration: none; }
   a:hover {
-    color: #cc0000; }
+    color: #0767ff; }
   a:focus {
-    color: #ff2929; }
+    color: #639fff; }
   a:visited {
-    color: #ff1414; }
+    color: #4e93ff; }
 
 img {
   border: none;
+  outline: none;
   max-width: 100%;
   width: 100%;
   -o-object-fit: cover;
@@ -88,9 +81,9 @@ img {
   -o-object-position: center;
   object-position: center; }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lora', serif;
-  color: #280100;
+h1, h2, h3, h4 {
+  font-family: 'Raleway', serif;
+  color: #3a86ff;
   margin: 0;
   padding: 0;
   text-align: center; }
@@ -128,7 +121,7 @@ li {
     background-position: 13px -50px;
     background-color: rgba(28, 21, 50, 0.9);
     opacity: 1;
-    color: #ffffff;
+    color: #fff;
     border: none;
     text-decoration: none;
     outline: none;

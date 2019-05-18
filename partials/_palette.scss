@@ -1,52 +1,17 @@
-$accent-color: #13f442; //Malachite -- Green
-$accent-dark: #00a823; //Dark Pastel Green -- Dark Green
-$brand-red: red;
-$dark-red: #a80019; // Carmine -- Dark-Brown:Red
-$medium-red: #ff2d4d; // Radical Red -- Pink:Red
-$gray: #868e96;
+$brand-color: rgba(58, 134, 255, 1);
+$accent-color: rgba(255, 0, 110, 1);
+$rainbow1: rgba(255, 190, 11, 1);
+$rainbow2: rgba(251, 86, 7, 1);
+$rainbow3: rgba(131, 56, 236, 1);
+$gray: #9a8f97;
 $light-gray: #f1f3f5;
-$semi-light-gray: #ccc;
+$semi-light-gray: #c3baba;
 $extra-light-gray: #f8f9fa;
-$white: #ffffff;
-$font-color: #1c1532;
-$brand-font: #280100;
-$unique-black: #1c1532;
-
-
-/* Coolors Exported Palette - coolors.co/0a2463-3e92cc-fffaff-d8315b-1e1b18 */
-
-/* HSL */
-$color1: hsla(222%, 82%, 21%, 1);
-$color2: hsla(205%, 58%, 52%, 1);
-$color3: hsla(300%, 100%, 99%, 1);
-$color4: hsla(345%, 68%, 52%, 1);
-$color5: hsla(30%, 11%, 11%, 1);
-
-/* RGB */
-$color1: rgba(10, 36, 99, 1);
-$color2: rgba(62, 146, 204, 1);
-$color3: rgba(255, 250, 255, 1);
-$color4: rgba(216, 49, 91, 1);
-$color5: rgba(30, 27, 24, 1);
-
-
-
-
-/* Coolors Exported Palette - coolors.co/ffe74c-ff5964-ffffff-38618c-35a7ff */
-
-/* HSL */
-$color1: hsla(52%, 100%, 65%, 1);
-$color2: hsla(356%, 100%, 67%, 1);
-$color3: hsla(0%, 0%, 100%, 1);
-$color4: hsla(211%, 43%, 38%, 1);
-$color5: hsla(206%, 100%, 60%, 1);
-
-/* RGB */
-$color1: rgba(255, 231, 76, 1);
-$color2: rgba(255, 89, 100, 1);
-$color3: rgba(255, 255, 255, 1);
-$color4: rgba(56, 97, 140, 1);
-$color5: rgba(53, 167, 255, 1);
+$white: #fff;
+$brand-bg: #07121e;
+$font-color: #040a11;
+$brand-font: rgba(58, 134, 255, 1);
+$brand-font2: rgba(255, 0, 110, 1);
 
 
 /* Coolors Exported Palette - coolors.co/ffbe0b-fb5607-ff006e-8338ec-3a86ff */
@@ -64,11 +29,3 @@ $color2: rgba(251, 86, 7, 1);
 $color3: rgba(255, 0, 110, 1);
 $color4: rgba(131, 56, 236, 1);
 $color5: rgba(58, 134, 255, 1);
-
-
-// shades of grey
-$gray-one: #9a8f97;
-$gray-one: #c3baba;
-$gray-one: #e9e3e6;
-$gray-one: #b2b2b2;
-$gray-one: #736f72;
