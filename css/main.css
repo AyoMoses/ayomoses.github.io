@@ -2,6 +2,9 @@
 /* Coolors Exported Palette - coolors.co/ffbe0b-fb5607-ff006e-8338ec-3a86ff */
 /* HSL */
 /* RGB */
+@import url(../css/style.css);
+@import url(../css/normalize.css);
+@import url(../css/animate.css);
 @font-face {
   font-family: 'Raleway', sans-serif;
   font-style: normal;

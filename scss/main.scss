@@ -3,6 +3,9 @@
 @import '../partials/media-queries';
 @import '../partials/palette';
 @import '../partials/variables';
+@import '../css/style.css';
+@import '../css/normalize.css';
+@import '../css/animate.css';
 
 
 @mixin deskTopFirst($media) {
