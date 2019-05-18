@@ -1,84 +1,148 @@
-/*
-Error: Undefined variable: "$brand-red".
-        on line 12 of partials/_variables.scss
-        from line 3 of scss/main.scss
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,600&display=swap");
+/* Coolors Exported Palette - coolors.co/0a2463-3e92cc-fffaff-d8315b-1e1b18 */
+/* HSL */
+/* RGB */
+/* Coolors Exported Palette - coolors.co/ffe74c-ff5964-ffffff-38618c-35a7ff */
+/* HSL */
+/* RGB */
+/* Coolors Exported Palette - coolors.co/ffbe0b-fb5607-ff006e-8338ec-3a86ff */
+/* HSL */
+/* RGB */
+/*hand writing*/
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Lato-Light"), local("Lato-Light"), url(https://fonts.gstatic.com/roboto.woff2) format("woff2"), url(https://fonts.gstatic.com/roboto.woff) format("woff");
+  font-display: swap; }
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Lora"), local("Lora"), url(https://fonts.gstatic.com/roboto.woff2) format("woff2"), url(https://fonts.gstatic.com/roboto.woff) format("woff");
+  font-display: swap; }
+body {
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  background: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  max-width: 100%;
+  width: 100%; }
 
-7:     @media screen and (max-width: $media/16+em) { @content; }
-8:   }
-9:   
-10:   @include deskTopFirst(960) {
-11:   
-12:   }
-13:   @include deskTopFirst(685) {
-14:   
-15:   }
-16:   @include deskTopFirst(441) {
-17:   
+:root {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
 
-Backtrace:
-partials/_variables.scss:12
-scss/main.scss:3
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/script/tree/variable.rb:49:in `_perform'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/script/tree/node.rb:50:in `perform'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/script/tree/funcall.rb:182:in `perform_arg'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/script/tree/funcall.rb:129:in `block in _perform'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/script/tree/funcall.rb:129:in `each'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/script/tree/funcall.rb:129:in `each_with_index'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/script/tree/funcall.rb:129:in `each'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/script/tree/funcall.rb:129:in `map'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/script/tree/funcall.rb:129:in `_perform'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/script/tree/node.rb:50:in `perform'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:478:in `visit_variable'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:325:in `map'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/stack.rb:88:in `block in with_import'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/stack.rb:88:in `with_import'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:157:in `visit'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:10:in `visit'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-3.7.3/lib/sass/plugin/compiler.rb:320:in `block in watch'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-C:/Ruby26/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$brand-red\".\A         on line 12 of partials/_variables.scss\A         from line 3 of scss/main.scss\A \A 7:     @media screen and (max-width: $media/16+em) { @content; }\A 8:   }\A 9:   \A 10:   @include deskTopFirst(960) {\A 11:   \A 12:   }\A 13:   @include deskTopFirst(685) {\A 14:   \A 15:   }\A 16:   @include deskTopFirst(441) {\A 17:   "; }
+*,
+::before,
+::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit; }
+
+::-webkit-scrollbar {
+  width: 7px;
+  border: 1px solid #868e96;
+  border-radius: .8em; }
+  @media screen and (max-width: 60em) {
+    ::-webkit-scrollbar {
+      width: 5px;
+      border-radius: .5em; } }
+
+::-webkit-scrollbar-track {
+  border-radius: 0;
+  background-color: #f8f9fa; }
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 0, 0, 0.7); }
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 0, 0, 0.7); }
+
+p {
+  font-family: 'Lato' sans-serif;
+  color: #1c1532;
+  text-align: center;
+  text-justify: inter-word;
+  color: #1c1532; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    color: #cc0000; }
+  a:focus {
+    color: #ff2929; }
+  a:visited {
+    color: #ff1414; }
+
+img {
+  border: none;
+  max-width: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lora', serif;
+  color: #280100;
+  margin: 0;
+  padding: 0;
+  text-align: center; }
+
+ul,
+li {
+  margin: 0;
+  padding: 0; }
+
+.fonts-failed body {
+  font-family: Helvetica, Arial, sans-serif; }
+
+.fonts-failed h1,
+.fonts-failed h2,
+.fonts-failed h3,
+.fonts-failed h4 {
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+/*scroll to top*/
+.scrollToTop {
+  background: transparent;
+  bottom: 1.25em;
+  display: inline-block;
+  height: 3.2em;
+  opacity: 1;
+  background-color: rgba(28, 21, 50, 0.2);
+  position: fixed;
+  right: 1.25em;
+  text-align: center;
+  width: 3.125em;
+  z-index: 100;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s; }
+  .scrollToTop:hover {
+    background-position: 13px -50px;
+    background-color: rgba(28, 21, 50, 0.9);
+    opacity: 1;
+    color: #ffffff;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    /* Firefox 3.5 - 3.6 */
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */ }
+  .scrollToTop:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+
+.fa-arrow-up {
+  margin: 30% 0;
+  text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
