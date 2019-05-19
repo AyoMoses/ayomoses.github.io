@@ -140,3 +140,16 @@ section {
         opacity: 0;
     }
 }
+
+
+@keyframes bgChange {
+    0%{
+        background: $brand-bg;
+    }
+    50%{
+        background: $accent-color;
+    }
+    100%{
+        background: $brand-bg;
+    }
+}

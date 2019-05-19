@@ -114,5 +114,12 @@ section {
     -ms-transform: scale(1) translateY(-50px) rotate(360deg);
     -o-transform: scale(1) translateY(-50px) rotate(360deg);
     opacity: 0; } }
+@keyframes bgChange {
+  0% {
+    background: #07121e; }
+  50% {
+    background: #ff006e; }
+  100% {
+    background: #07121e; } }
 
 /*# sourceMappingURL=hero.css.map */
