@@ -1,0 +1,22 @@
+/* Coolors Exported Palette - coolors.co/ffbe0b-fb5607-ff006e-8338ec-3a86ff */
+/* HSL */
+/* RGB */
+section {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: #07121e; }
+
+.bgPulse {
+  width: 100%;
+  height: 100%; }
+  .bgPulse span {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: #fff; }
+    .bgPulse span:nth-child(1) {
+      top: 50%;
+      left: 20%; }
+
+/*# sourceMappingURL=header.css.map */
