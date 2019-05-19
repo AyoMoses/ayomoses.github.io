@@ -198,6 +198,46 @@ section {
     }
 }
 
+.btn {
+    border: 1px solid $brand-color;
+    background: transparent;
+    font-family: $main-font;
+    cursor: pointer;
+    color: $brand-color;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+}
+.btn2 {
+    color: $white;
+    background: $brand-bg;
+
+    &:hover {
+        color: $brand-color;
+    }
+}
+.cta__button {
+    border: 1px solid $brand-color;
+    padding: 0.8125em 1.25em;
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+        top: 0;
+        border-radius: 0 0 50% 50%;
+        -webkit-border-radius: 0 0 50% 50%;
+        -moz-border-radius: 0 0 50% 50%;
+        -ms-border-radius: 0 0 50% 50%;
+        -o-border-radius: 0 0 50% 50%;
+    }
+
+    &:hover {
+        color: $white;
+    }
+}
+
 // HERO TEXT ANIMATION
 @-webkit-keyframes hero__headerAnimate{
     0%{
