@@ -198,12 +198,13 @@ section {
     }
 }
 
+// HERO TEXT ANIMATION
 @-webkit-keyframes hero__headerAnimate{
     0%{
         color: $accent-color;
     }
     51%{
-        color: $brand-color;
+        color: $rainbow1;
         font-weight: 900;
     }
     100%{
