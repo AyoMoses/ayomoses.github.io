@@ -122,8 +122,41 @@ section {
     }
 }
 
+// HERO CTA STYLE
+.hero-cta {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    width: 40%;
+    height: 30%;
 
-@-webkit-keyframes animate {
+    & .cta__header {
+        color: $rainbow1;
+    }
+    & p {
+        color: $brand-color;
+    }
+    & .cta__name {
+        color: $brand-color;
+    }
+    & .cta__notice {
+        color: $brand-color;
+    }
+    & .cta__intro {
+        color: $rainbow1;
+    }
+    & .fa-smile-wink {
+        color: white;
+    }
+}
+
+
+@-webkit-keyframes animate { //using -webkit-keyframes display on mobile chrome
     0%{
         transform: scale(0) translateY(0) rotate(0deg);
         -webkit-transform: scale(0) translateY(0) rotate(0deg);

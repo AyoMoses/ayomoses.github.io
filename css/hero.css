@@ -99,6 +99,30 @@ section {
       animation: animate 16s linear infinite;
       -webkit-animation: animate 16s linear infinite; }
 
+.hero-cta {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  width: 40%;
+  height: 30%; }
+  .hero-cta .cta__header {
+    color: #ffbe0b; }
+  .hero-cta p {
+    color: #3a86ff; }
+  .hero-cta .cta__name {
+    color: #3a86ff; }
+  .hero-cta .cta__notice {
+    color: #3a86ff; }
+  .hero-cta .cta__intro {
+    color: #ffbe0b; }
+  .hero-cta .fa-smile-wink {
+    color: white; }
+
 @-webkit-keyframes animate {
   0% {
     transform: scale(0) translateY(0) rotate(0deg);
