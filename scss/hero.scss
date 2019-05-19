@@ -122,7 +122,8 @@ section {
     }
 }
 
-@keyframes animate {
+
+@-webkit-keyframes animate {
     0%{
         transform: scale(0) translateY(0) rotate(0deg);
         -webkit-transform: scale(0) translateY(0) rotate(0deg);
