@@ -1,6 +1,6 @@
 @import '../partials/palette';
 @import '../partials/variables';
-@import '../partials/media-queries';
+@import '../partials/media_queries';
 
 section {
     position: absolute;
@@ -124,6 +124,11 @@ section {
 
 // HERO CTA STYLE
 .hero-cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -132,29 +137,80 @@ section {
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
-    width: 40%;
-    height: 30%;
+    width: 70%;
+    
 
     & .cta__header {
-        color: $rainbow1;
+        color: $white;
+        @include deskTopFirst(768) {
+            font-size: 1.2em;
+            display: flex;
+            flex-direction: column;
+        }
+        @include deskTopFirst(618) {
+            font-size: 1.1em;
+            display: flex;
+            flex-direction: column;
+        }
     }
     & p {
         color: $brand-color;
+        @include deskTopFirst(768) {
+            font-size: 1em;
+            display: flex;
+            flex-direction: column;
+        }
+        @include deskTopFirst(618) {
+            font-size: .8em;
+            display: flex;
+            flex-direction: column;
+        }
     }
     & .cta__name {
-        color: $brand-color;
+        animation: hero__headerAnimate 12s infinite 0s linear;
+        -webkit-animation: hero__headerAnimate 12s infinite 0s linear;
+        color: $accent-color;
     }
     & .cta__notice {
         color: $brand-color;
     }
     & .cta__intro {
-        color: $rainbow1;
+        color: $white;
     }
     & .fa-smile-wink {
         color: white;
     }
+
+    @include deskTopFirst(768) {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        width: 40%;
+        height: 30%;
+    }
+    @include deskTopFirst(685) {
+    
+    }
 }
 
+@-webkit-keyframes hero__headerAnimate{
+    0%{
+        color: $accent-color;
+    }
+    51%{
+        color: $brand-color;
+        font-weight: 900;
+    }
+    100%{
+        color: $accent-color;
+        font-weight: 900;
+    }
+}
 
 @-webkit-keyframes animate { //using -webkit-keyframes display on mobile chrome
     0%{
@@ -176,12 +232,12 @@ section {
 }
 
 
-@keyframes bgChange {
+@-webkit-keyframes bgChange {
     0%{
         background: $brand-bg;
     }
     50%{
-        background: $accent-color;
+        background: lighten($color: $brand-bg, $amount: 5%);
     }
     100%{
         background: $brand-bg;
