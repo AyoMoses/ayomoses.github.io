@@ -198,43 +198,49 @@ section {
     }
 }
 
-.btn {
+.hero__btn {
     border: 1px solid $brand-color;
     background: transparent;
     font-family: $main-font;
+    font-size: 1.1em;
     cursor: pointer;
-    color: $brand-color;
+    color: $white;
     transition: all 0.3s linear;
     -webkit-transition: all 0.3s linear;
     -moz-transition: all 0.3s linear;
     -ms-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
-}
-.btn2 {
-    color: $white;
-    background: $brand-bg;
 
-    &:hover {
-        color: $brand-color;
+    &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background: $brand-color;
+        color: $white;
+        z-index: -1;
+        transition: 0.8s;
+        -webkit-transition: 0.8s;
+        -moz-transition: 0.8s;
+        -ms-transition: 0.8s;
+        -o-transition: 0.8s;
     }
 }
+
 .cta__button {
     border: 1px solid $brand-color;
     padding: 0.8125em 1.25em;
     position: relative;
-    overflow: hidden;
 
     &::before {
-        top: 0;
-        border-radius: 0 0 50% 50%;
-        -webkit-border-radius: 0 0 50% 50%;
-        -moz-border-radius: 0 0 50% 50%;
-        -ms-border-radius: 0 0 50% 50%;
-        -o-border-radius: 0 0 50% 50%;
-    }
+        bottom: 0;
+}
 
-    &:hover {
+    &:hover::before {
+        height: 100%;
         color: $white;
+        background: $brand-color;
     }
 }
 
