@@ -137,7 +137,7 @@ section {
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
-    width: 70%;
+    width: 100%;
     
 
     & .cta__header {
@@ -193,9 +193,6 @@ section {
         width: 40%;
         height: 30%;
     }
-    @include deskTopFirst(685) {
-    
-    }
 }
 
 .hero__btn {
@@ -210,6 +207,7 @@ section {
     -moz-transition: all 0.3s linear;
     -ms-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
+    box-sizing: border-box;
 
     &::before {
         content: "";
@@ -225,6 +223,10 @@ section {
         -moz-transition: 0.8s;
         -ms-transition: 0.8s;
         -o-transition: 0.8s;
+    }
+
+    @include deskTopFirst(685) {
+    
     }
 }
 
@@ -242,7 +244,34 @@ section {
         color: $white;
         background: $brand-color;
     }
+
+    @include deskTopFirst(685) {
+    
+    }
 }
+
+.fa-angle-double-down {
+    position: absolute;
+    color: $brand-color;
+    bottom: 1%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+
+    @include deskTopFirst(685) {
+    
+    }
+
+}
+
 
 // HERO TEXT ANIMATION
 @-webkit-keyframes hero__headerAnimate{
