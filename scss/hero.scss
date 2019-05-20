@@ -262,13 +262,25 @@ section {
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
+    animation: moveUpDown 4s infinite 0s linear;
+    -webkit-animation: moveUpDown 2s infinite 15s linear;
 
     @include deskTopFirst(685) {
         font-size: 1.4em !important;
     }
-
 }
 
+@-webkit-keyframes moveUpDown{
+    0%{
+        bottom: 0;
+    }
+    50%{
+       bottom: 7px;
+    }
+    100%{
+        bottom: 0;
+    }
+}
 
 // HERO TEXT ANIMATION
 @-webkit-keyframes hero__headerAnimate{

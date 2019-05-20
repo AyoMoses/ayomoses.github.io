@@ -218,11 +218,20 @@ section {
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%); }
+  -o-transform: translate(-50%, -50%);
+  animation: moveUpDown 4s infinite 0s linear;
+  -webkit-animation: moveUpDown 2s infinite 15s linear; }
   @media screen and (max-width: 42.8125em) {
     .fa-angle-double-down {
       font-size: 1.4em !important; } }
 
+@-webkit-keyframes moveUpDown {
+  0% {
+    bottom: 0; }
+  50% {
+    bottom: 7px; }
+  100% {
+    bottom: 0; } }
 @-webkit-keyframes hero__headerAnimate {
   0% {
     color: #ff006e; }
