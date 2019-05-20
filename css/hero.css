@@ -199,11 +199,15 @@ section {
     height: 100%;
     color: #fff;
     background: #3a86ff; }
+  @media screen and (max-width: 33em) {
+    .cta__button {
+      font-size: .7em;
+      padding: 0.8em 0.8em; } }
 
 .fa-angle-double-down {
   position: absolute;
   color: #3a86ff;
-  bottom: 1%;
+  bottom: 0;
   left: 50%;
   display: flex;
   flex-direction: column;
@@ -215,6 +219,9 @@ section {
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%); }
+  @media screen and (max-width: 42.8125em) {
+    .fa-angle-double-down {
+      font-size: 1.4em !important; } }
 
 @-webkit-keyframes hero__headerAnimate {
   0% {

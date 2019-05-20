@@ -224,10 +224,6 @@ section {
         -ms-transition: 0.8s;
         -o-transition: 0.8s;
     }
-
-    @include deskTopFirst(685) {
-    
-    }
 }
 
 .cta__button {
@@ -245,15 +241,16 @@ section {
         background: $brand-color;
     }
 
-    @include deskTopFirst(685) {
-    
+    @include deskTopFirst(528) {
+        font-size: .7em;
+        padding: 0.8em 0.8em;
     }
 }
 
 .fa-angle-double-down {
     position: absolute;
     color: $brand-color;
-    bottom: 1%;
+    bottom: 0;
     left: 50%;
     display: flex;
     flex-direction: column;
@@ -267,7 +264,7 @@ section {
     -o-transform: translate(-50%, -50%);
 
     @include deskTopFirst(685) {
-    
+        font-size: 1.4em !important;
     }
 
 }
