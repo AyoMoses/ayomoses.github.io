@@ -7,7 +7,7 @@
 @import '../css/normalize.css';
 @import '../css/animate.css';
 @import '../css/hero.css';
-
+@import '../css/navigation.css';
 
 @mixin deskTopFirst($media) {
     @media screen and (max-width: $media/16+em) { @content; }
@@ -52,6 +52,7 @@
     padding: 0;
     height: 100%;
     overflow: hidden;
+    text-align: center;
   }
   
   
@@ -114,7 +115,7 @@
     border: none;
     outline: none;
     max-width: 100%;
-    width: 100%;
+    height: auto;
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: center;
@@ -134,6 +135,7 @@
   li {
     margin: 0;
     padding: 0;
+    list-style: none;
   }
   
   .fonts-failed body {

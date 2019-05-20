@@ -99,7 +99,8 @@ section {
       animation: animate 16s linear infinite;
       -webkit-animation: animate 16s linear infinite; }
 
-.hero-cta {
+.hero-cta-box {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -113,43 +114,49 @@ section {
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
-  width: 100%; }
-  .hero-cta .cta__header {
+  width: 95%;
+  margin: 0 auto;
+  padding: .2em .2em; }
+  .hero-cta-box .cta__header {
     color: #fff; }
     @media screen and (max-width: 48em) {
-      .hero-cta .cta__header {
+      .hero-cta-box .cta__header {
         font-size: 1.2em;
         display: flex;
         flex-direction: column; } }
     @media screen and (max-width: 38.625em) {
-      .hero-cta .cta__header {
+      .hero-cta-box .cta__header {
         font-size: 1.1em;
         display: flex;
         flex-direction: column; } }
-  .hero-cta p {
+  .hero-cta-box p {
     color: #3a86ff; }
     @media screen and (max-width: 48em) {
-      .hero-cta p {
+      .hero-cta-box p {
         font-size: 1em;
         display: flex;
         flex-direction: column; } }
     @media screen and (max-width: 38.625em) {
-      .hero-cta p {
+      .hero-cta-box p {
         font-size: .8em;
         display: flex;
         flex-direction: column; } }
-  .hero-cta .cta__name {
+  .hero-cta-box .cta__name {
     animation: hero__headerAnimate 12s infinite 0s linear;
     -webkit-animation: hero__headerAnimate 12s infinite 0s linear;
     color: #ff006e; }
-  .hero-cta .cta__notice {
+  .hero-cta-box .cta__notice {
     color: #3a86ff; }
-  .hero-cta .cta__intro {
-    color: #fff; }
-  .hero-cta .fa-smile-wink {
+  .hero-cta-box .cta__intro {
+    color: #fff;
+    margin: .8em auto;
+    font-size: .8em;
+    display: block;
+    font-weight: 500; }
+  .hero-cta-box .fa-smile-wink {
     color: white; }
   @media screen and (max-width: 48em) {
-    .hero-cta {
+    .hero-cta-box {
       position: absolute;
       left: 50%;
       top: 50%;

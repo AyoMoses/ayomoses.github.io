@@ -6,6 +6,7 @@
 @import url(../css/normalize.css);
 @import url(../css/animate.css);
 @import url(../css/hero.css);
+@import url(../css/navigation.css);
 @font-face {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -27,7 +28,8 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+  text-align: center; }
 
 :root {
   -webkit-box-sizing: border-box;
@@ -79,7 +81,7 @@ img {
   border: none;
   outline: none;
   max-width: 100%;
-  width: 100%;
+  height: auto;
   -o-object-fit: cover;
   object-fit: cover;
   -o-object-position: center;
@@ -95,7 +97,8 @@ h1, h2, h3, h4 {
 ul,
 li {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  list-style: none; }
 
 .fonts-failed body {
   font-family: Helvetica, Arial, sans-serif; }
