@@ -5,7 +5,7 @@ section {
   position: absolute;
   width: 100%;
   max-width: 100%;
-  height: 100vh;
+  height: 100%;
   animation: bgChange 20s linear infinite;
   -webkit-animation: bgChange 20s linear infinite; }
 
