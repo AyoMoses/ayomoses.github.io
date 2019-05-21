@@ -60,7 +60,7 @@ nav ul li:nth-child(4){
 }
 
 .primary-nav a{
-    padding: 1em 0;
+    padding: 1em 1em;
     margin: 0 3rem;
     position: relative;
     letter-spacing: 2px;
@@ -117,6 +117,10 @@ nav ul li a::after{
 nav ul li a:hover::before,
 nav ul li a:hover::after{
 	transform: scaleX(1);
+}
+
+.active {
+	color: $rainbow2 !important;
 }
 
 @keyframes slideIn {
