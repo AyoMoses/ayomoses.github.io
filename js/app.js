@@ -1,7 +1,7 @@
 // KURSORX SCRIPTS
 var kursorx = new kursor({
     type: 2, //type to of 5
-    color: 'rgba(58, 134, 255, 1)',
+    color: 'rgba(251, 86, 7, 1)',
     removeDefaultCursor: true
 })
 
