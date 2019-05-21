@@ -2,13 +2,11 @@
 @import '../partials/variables';
 @import '../partials/media_queries';
 
-.hero-container {
-    position: absolute;
-    width: 100%;
-    max-width: 100%;
-    padding: 20em;
-    animation: bgChange 20s linear infinite;
-    -webkit-animation: bgChange 20s linear infinite;
+
+.hero {
+    background: $brand-bg;
+    height: 100vh;
+    padding: 10em;
 }
 
 .bgPulse {
@@ -270,7 +268,7 @@
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     animation: moveUpDown 4s infinite 0s linear;
-    -webkit-animation: moveUpDown 2s infinite 15s linear;
+    -webkit-animation: moveUpDown 2s infinite 10s linear;
 
     @include deskTopFirst(685) {
         font-size: 1.4em !important;

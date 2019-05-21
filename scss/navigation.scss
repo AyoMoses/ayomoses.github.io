@@ -1,14 +1,16 @@
 @import '../partials/palette';
 
-
 header {
-    position: relative;
+    position: sticky;
     top: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    box-shadow: 10px 5px 8px 0 $semi-light-gray;
+    transition: all .5s linear .1s;
+    -webkit-transition: all .5s linear .1s;
+    -moz-transition: all .5s linear .1s;
+    -ms-transition: all .5s linear .1s;
+    -o-transition: all .5s linear .1s;
 }
+
 .menu-toggle {
     position: fixed;
     top: 1em;
@@ -21,12 +23,15 @@ header {
 }
 
 nav {
+    background: $brand-color;
     padding-top: 1em;
     display: flex;
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
     font-size: 1em;
+	padding: 1em;
+	color: $white;
 
     & ul{
         display: flex;
@@ -56,10 +61,19 @@ nav ul li:nth-child(4){
 }
 
 nav ul li a{
-	padding: 1rem 0;
-	margin: 0 3rem;
-	position: relative;
-	letter-spacing: 2px;
+    padding: 1em 0;
+    margin: 0 3rem;
+    position: relative;
+    letter-spacing: 2px;
+    transition:all .3s ease-in-out .1s;
+    -webkit-transition:all .3s ease-in-out .1s;
+    -moz-transition:all .3s ease-in-out .1s;
+    -ms-transition:all .3s ease-in-out .1s;
+	-o-transition:all .3s ease-in-out .1s;
+	color: $white;
+    &:hover {
+        color: darken($color: $accent-color, $amount: 20%);
+    }
 }
 
 nav ul li a:last-child{
@@ -98,7 +112,7 @@ nav ul li a::after{
 	transition: opacity 650ms;
 	transform: scale(0);
 	opacity: 0;
-  display: none;
+  	display: none;
 }
 
 nav ul li a:hover::before,
