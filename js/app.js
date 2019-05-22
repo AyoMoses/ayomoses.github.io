@@ -1,9 +1,9 @@
 // KURSORX SCRIPTS
-var kursorx = new kursor({
-    type: 2, //type to of 5
-    color: 'rgba(251, 86, 7, 1)',
-    removeDefaultCursor: true
-})
+// var kursorx = new kursor({
+//     type: 2, //type to of 5
+//     color: 'rgba(251, 86, 7, 1)',
+//     removeDefaultCursor: true
+// })
 
 // TOGGLE MENU SCRIPT
 var open = document.getElementById('hamburger');
@@ -31,19 +31,8 @@ open.addEventListener("click", function(){
     }
 });
 
-// JAVASCRIPT TEST
 
-// let navContainer = document.getElementById("site-nav-bar");
-// let navItems = navContainer.getElementsByClassName("nav-item");
-
-// for (var i = 0; i < nav-DataTransferItem.length; i++) {
-//     nav-navItems[i].addEventListener("click", function() {
-//         let current = document.getElementsByClassName("active");
-//         current[0].className = current[0].className.replace("active", "");
-//         this.className += " active";
-//     });
-// }
-
+// ANCHOR LINKS ONE PAGE ACTIVE STATE SELECTOR
 let mainNavLinks = document.querySelectorAll("nav ul li a");
 let mainSections = document.querySelectorAll("main section");
 
