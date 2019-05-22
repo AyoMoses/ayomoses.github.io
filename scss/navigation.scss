@@ -69,7 +69,7 @@ nav ul li:nth-child(4){
     -moz-transition:all .3s ease-in-out .1s;
     -ms-transition:all .3s ease-in-out .1s;
 	-o-transition:all .3s ease-in-out .1s;
-	color: $white !important;
+	color: $white;
     &:hover {
         color: darken($color: $accent-color, $amount: 20%) !important;
     }
@@ -119,9 +119,9 @@ nav ul li a:hover::after{
 	transform: scaleX(1);
 }
 
-.active {
-	// color: $rainbow2 !important;
-	// background: red;
+.current {
+	background: red;
+	color: white;
 }
 
 @keyframes slideIn {
@@ -150,6 +150,8 @@ nav ul li a:hover::after{
 	}
 
 	nav ul{
+		position: sticky;
+		top: 0;
 		flex-direction: column;
 	}
 

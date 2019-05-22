@@ -59,7 +59,7 @@ nav ul li:nth-child(4) {
   -moz-transition: all .3s ease-in-out .1s;
   -ms-transition: all .3s ease-in-out .1s;
   -o-transition: all .3s ease-in-out .1s;
-  color: #fff !important; }
+  color: #fff; }
   .primary-nav a:hover {
     color: #990042 !important; }
 
@@ -101,6 +101,10 @@ nav ul li a:hover::before,
 nav ul li a:hover::after {
   transform: scaleX(1); }
 
+.current {
+  background: red;
+  color: white; }
+
 @keyframes slideIn {
   to {
     transform: translateX(0); } }
@@ -118,6 +122,8 @@ nav ul li a:hover::after {
     text-align: center; }
 
   nav ul {
+    position: sticky;
+    top: 0;
     flex-direction: column; }
 
   nav ul li {

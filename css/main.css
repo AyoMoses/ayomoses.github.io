@@ -69,12 +69,6 @@ p {
 
 a {
   text-decoration: none; }
-  a:hover {
-    color: #0767ff; }
-  a:focus {
-    color: #639fff; }
-  a:visited {
-    color: #4e93ff; }
 
 img {
   border: none;
