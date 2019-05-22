@@ -101,9 +101,6 @@ nav ul li a:hover::before,
 nav ul li a:hover::after {
   transform: scaleX(1); }
 
-.active {
-  color: #fb5607 !important; }
-
 @keyframes slideIn {
   to {
     transform: translateX(0); } }

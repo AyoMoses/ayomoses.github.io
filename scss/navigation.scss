@@ -38,7 +38,7 @@ nav {
         & li {
             list-style: none;
             transform: translateX(100rem);
-            animation: slideIn .5s forwards;
+			animation: slideIn .5s forwards;
         }
     }
 }
@@ -120,7 +120,8 @@ nav ul li a:hover::after{
 }
 
 .active {
-	color: $rainbow2 !important;
+	// color: $rainbow2 !important;
+	// background: red;
 }
 
 @keyframes slideIn {

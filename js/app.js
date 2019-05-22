@@ -30,3 +30,16 @@ open.addEventListener("click", function(){
         changeIcon = true;
     }
 });
+
+// JAVASCRIPT TEST
+
+let navContainer = document.getElementById("site-nav-bar");
+let navItems = navContainer.getElementsByClassName("nav-item");
+
+for (var i = 0; i < nav-DataTransferItem.length; i++) {
+    nav-navItems[i].addEventListener("click", function() {
+        let current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace("active", "");
+        this.className += " active";
+    });
+}
