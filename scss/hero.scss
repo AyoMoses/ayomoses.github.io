@@ -268,7 +268,7 @@
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     animation: moveUpDown 4s infinite 0s linear;
-    -webkit-animation: moveUpDown 2s infinite 10s linear;
+    -webkit-animation: moveUpDown 2s infinite 3s linear;
 
     @include deskTopFirst(685) {
         font-size: 1.4em !important;
