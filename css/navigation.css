@@ -5,7 +5,7 @@ header {
   position: sticky;
   top: 0;
   transition: all .5s linear .1s;
-  box-shadow: 10px 5px 8px 0 #c3baba;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.61);
   -webkit-transition: all .5s linear .1s;
   -moz-transition: all .5s linear .1s;
   -ms-transition: all .5s linear .1s;

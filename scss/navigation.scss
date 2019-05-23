@@ -6,7 +6,7 @@ header {
 	position: sticky;
 	top: 0;
 	transition: all .5s linear .1s;
-	box-shadow: 10px 5px 8px 0 $semi-light-gray;
+	box-shadow: $box-shadow-3;
     -webkit-transition: all .5s linear .1s;
     -moz-transition: all .5s linear .1s;
     -ms-transition: all .5s linear .1s;

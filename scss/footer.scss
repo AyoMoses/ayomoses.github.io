@@ -1,0 +1,17 @@
+@import '../partials/media_queries';
+@import '../partials/palette';
+@import '../partials/variables';
+
+footer {
+    //height 100% fixes the margin bottom primarily
+    background: lighten($color: $brand-color, $amount: 20%);
+    margin: 0;
+    // padding-bottom: -30px; //can be used to address more issues;
+    height: 100%;
+    // position: relative; //removes the 10px margin bottom
+}
+.footer-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
