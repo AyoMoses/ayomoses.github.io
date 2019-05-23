@@ -12,6 +12,7 @@ header {
     -ms-transition: all .5s linear .1s;
 	-o-transition: all .5s linear .1s;
 	z-index: 10;
+	border-bottom: 2px solid $brand-color;
 
 	@include deskTopFirst(511) {
 		position: sticky;
@@ -147,7 +148,7 @@ nav ul li a:hover::after{
 	-o-transition: all .6s linear .1s;
 }
 
-@keyframes slideIn {
+@-webkit-keyframes slideIn {
 	from{
 
 	}

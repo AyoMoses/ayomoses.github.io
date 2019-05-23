@@ -10,7 +10,8 @@ header {
   -moz-transition: all .5s linear .1s;
   -ms-transition: all .5s linear .1s;
   -o-transition: all .5s linear .1s;
-  z-index: 10; }
+  z-index: 10;
+  border-bottom: 2px solid #3a86ff; }
   @media screen and (max-width: 31.9375em) {
     header {
       position: sticky;
@@ -123,7 +124,7 @@ nav ul li a:hover::after {
   -ms-transition: all .6s linear .1s;
   -o-transition: all .6s linear .1s; }
 
-@keyframes slideIn {
+@-webkit-keyframes slideIn {
   to {
     transform: translateX(0); } }
 

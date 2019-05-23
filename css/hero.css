@@ -93,6 +93,81 @@
     .bgPulse span:nth-child(15) {
       top: 6%;
       right: 32%;
+      animation: animate 3s linear infinite;
+      -webkit-animation: animate 3s linear infinite; }
+    .bgPulse span:nth-child(16) {
+      top: 14%;
+      right: 11%;
+      animation: animate 5s linear infinite;
+      -webkit-animation: animate 5s linear infinite; }
+    .bgPulse span:nth-child(17) {
+      top: 6%;
+      left: 32%;
+      animation: animate 3s linear infinite;
+      -webkit-animation: animate 3s linear infinite; }
+    .bgPulse span:nth-child(18) {
+      top: 16%;
+      left: 22%;
+      animation: animate 1s linear infinite;
+      -webkit-animation: animate 1s linear infinite; }
+    .bgPulse span:nth-child(19) {
+      bottom: 29%;
+      left: 32%;
+      animation: animate 6s linear infinite;
+      -webkit-animation: animate 6s linear infinite; }
+    .bgPulse span:nth-child(20) {
+      bottom: 19%;
+      left: 4%;
+      animation: animate 7s linear infinite;
+      -webkit-animation: animate 7s linear infinite; }
+    .bgPulse span:nth-child(21) {
+      top: 67%;
+      right: 44%;
+      animation: animate 6s linear infinite;
+      -webkit-animation: animate 6s linear infinite; }
+    .bgPulse span:nth-child(22) {
+      bottom: 6%;
+      left: 44%;
+      animation: animate 9s linear infinite;
+      -webkit-animation: animate 9s linear infinite; }
+    .bgPulse span:nth-child(23) {
+      top: 36%;
+      right: 32%;
+      animation: animate 2s linear infinite;
+      -webkit-animation: animate 2s linear infinite; }
+    .bgPulse span:nth-child(24) {
+      bottom: 6%;
+      left: 22%;
+      animation: animate 5s linear infinite;
+      -webkit-animation: animate 5s linear infinite; }
+    .bgPulse span:nth-child(25) {
+      top: 8%;
+      right: 2%;
+      animation: animate 8s linear infinite;
+      -webkit-animation: animate 8s linear infinite; }
+    .bgPulse span:nth-child(26) {
+      bottom: 16%;
+      right: 18%;
+      animation: animate 5s linear infinite;
+      -webkit-animation: animate 5s linear infinite; }
+    .bgPulse span:nth-child(27) {
+      bottom: 6%;
+      left: 17%;
+      animation: animate 10s linear infinite;
+      -webkit-animation: animate 10s linear infinite; }
+    .bgPulse span:nth-child(28) {
+      top: 9%;
+      left: 12%;
+      animation: animate 4s linear infinite;
+      -webkit-animation: animate 4s linear infinite; }
+    .bgPulse span:nth-child(29) {
+      top: 9%;
+      left: 49%;
+      animation: animate 7s linear infinite;
+      -webkit-animation: animate 7s linear infinite; }
+    .bgPulse span:nth-child(30) {
+      top: 4%;
+      left: 4%;
       animation: animate 16s linear infinite;
       -webkit-animation: animate 16s linear infinite; }
 
