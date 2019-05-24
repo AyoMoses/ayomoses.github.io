@@ -13,4 +13,37 @@
   text-align: center;
   margin: 0 auto; }
 
+#octagon {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative; }
+
+#octagon:before {
+  content: "";
+  width: 100px;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom: 29px solid red;
+  border-left: 29px solid #eee;
+  border-right: 29px solid #eee; }
+
+#octagon:after {
+  content: "";
+  width: 100px;
+  height: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 29px solid red;
+  border-left: 29px solid #eee;
+  border-right: 29px solid #eee; }
+
+.fa-rocket {
+  text-align: center;
+  justify-content: center;
+  padding: 30px; }
+
 /*# sourceMappingURL=about-section.css.map */
