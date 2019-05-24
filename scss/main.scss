@@ -129,6 +129,11 @@
     list-style: none;
   }
 
+  .page-layer {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+
   section {
     height: auto; //use vh if u need 100% vh per section
     width: 100%;
@@ -168,8 +173,8 @@
     top: 0;
     left: 0;
     border-bottom: 29px solid red;
-    border-left: 29px solid #eee;
-    border-right: 29px solid #eee;
+    border-left: 29px solid #fff;
+    border-right: 29px solid #fff;
   }
   #octagon:after {
     content: "";
@@ -179,9 +184,10 @@
     bottom: 0;
     left: 0;
     border-top: 29px solid red;
-    border-left: 29px solid #eee;
-    border-right: 29px solid #eee;
+    border-left: 29px solid #fff;
+    border-right: 29px solid #fff;
   }
+
 
   section:nth-child(2) {
     background: $rainbow1;
