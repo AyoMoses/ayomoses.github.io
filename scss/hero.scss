@@ -303,6 +303,8 @@
     -ms-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
     box-sizing: border-box;
+    box-shadow: $box-shadow-3;
+    outline: none;
 
     &::before {
         content: "";
@@ -318,6 +320,10 @@
         -moz-transition: 0.8s;
         -ms-transition: 0.8s;
         -o-transition: 0.8s;
+    }
+
+    &:focus {
+        box-shadow: none;
     }
 }
 
