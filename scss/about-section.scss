@@ -1,0 +1,16 @@
+@import '../partials/palette';
+@import '../partials/variables';
+@import '../partials/media_queries';
+
+.about-header {
+    text-align: center;
+    font-weight: 800;
+    font-size: 2.5em;
+    margin-bottom: 14px;
+}
+.section-border {
+    border-bottom: 3px solid $brand-color;
+    width: 60px;
+    text-align: center;
+    margin: 0 auto;
+}

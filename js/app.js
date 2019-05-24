@@ -29,3 +29,7 @@ window.addEventListener("scroll", event => {
         }
     });
 });
+
+
+// ANIMATE ON SCROLL INITIALIZATION
+AOS.init();

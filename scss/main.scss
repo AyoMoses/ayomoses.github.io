@@ -9,6 +9,7 @@
 @import '../css/hero.css';
 @import '../css/navigation.css';
 @import '../css/footer.css';
+@import '../css/about-section.css';
 
 @mixin deskTopFirst($media) {
     @media screen and (max-width: $media/16+em) { @content; }
@@ -99,16 +100,6 @@
   
   a {
     text-decoration: none;
-  
-    // &:hover {
-    //   color: darken($color: $brand-color, $amount: 10%);
-    // }
-    // &:focus {
-    //   color: lighten($color: $brand-color, $amount: 8%);
-    // }
-    // &:visited {
-    //   color: lighten($color: $brand-color, $amount: 4%);
-    // }
   }
     
   img {
@@ -162,13 +153,7 @@
     }
   }
 
-  section:nth-child(1) {
-    background: $brand-color;
-
-    h1 {
-      color: $white;
-    }
-  }
+  
   section:nth-child(2) {
     background: $rainbow1;
 

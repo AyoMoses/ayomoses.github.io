@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAgBA,8EAA8E;AAE9E,SAAS;AAOT,SAAS;ACrBT,aAAc;EACV,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,KAAK;EAChB,aAAa,EAAE,IAAI;;AAEvB,eAAgB;EACZ,aAAa,EAAE,iBAAsB;EACrC,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,MAAM",
+"sources": ["../partials/_palette.scss","../scss/about-section.scss"],
+"names": [],
+"file": "about-section.css"
+}
