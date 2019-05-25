@@ -2,7 +2,7 @@
 @import '../partials/variables';
 @import '../partials/media_queries';
 
-.about-header {
+.section-header {
     text-align: center;
     font-weight: 800;
     font-size: 2.5em;
@@ -18,18 +18,12 @@
 
  .icons-wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    flex: 1;
-    margin: 3em 0;
-    width: 100%;
-    max-width: 100%;
-
-    h3 {
-        color: red;
-        margin: 1.2em 0;
-    }
+    margin: 5em auto;
+    width: 95%;
+    max-width: 95%;
 
 }
 .icons {
@@ -38,12 +32,16 @@
     padding: 27px;
     color: $white;
 }
-.icon-col {
-    margin: 10px;
+.icons-head {
+    font-size: 2em;
+    font-weight: 800;
+}
+.icons-paragragh {
+    font: 400;
+    font-size: 1em;
+}
 
-    p {
-        background: green;
-        justify-content: left;
-        
-    }
+.icon-col {
+    display: flex;
+    flex-direction: column;
 }

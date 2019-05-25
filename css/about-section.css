@@ -1,7 +1,7 @@
 /* Coolors Exported Palette - coolors.co/ffbe0b-fb5607-ff006e-8338ec-3a86ff */
 /* HSL */
 /* RGB */
-.about-header {
+.section-header {
   text-align: center;
   font-weight: 800;
   font-size: 2.5em;
@@ -15,16 +15,12 @@
 
 .icons-wrapper {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  flex: 1;
-  margin: 3em 0;
-  width: 100%;
-  max-width: 100%; }
-  .icons-wrapper h3 {
-    color: red;
-    margin: 1.2em 0; }
+  margin: 5em auto;
+  width: 95%;
+  max-width: 95%; }
 
 .icons {
   text-align: center;
@@ -32,10 +28,16 @@
   padding: 27px;
   color: #fff; }
 
+.icons-head {
+  font-size: 2em;
+  font-weight: 800; }
+
+.icons-paragragh {
+  font: 400;
+  font-size: 1em; }
+
 .icon-col {
-  margin: 10px; }
-  .icon-col p {
-    background: green;
-    justify-content: left; }
+  display: flex;
+  flex-direction: column; }
 
 /*# sourceMappingURL=about-section.css.map */
