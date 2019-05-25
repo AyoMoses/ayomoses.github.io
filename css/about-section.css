@@ -5,10 +5,11 @@
   text-align: center;
   font-weight: 800;
   font-size: 2.5em;
-  margin-bottom: 14px; }
+  margin-bottom: 14px;
+  color: #040a11; }
 
 .section-border {
-  border-bottom: 3px solid #3a86ff;
+  border-bottom: 3px solid #040a11;
   width: 60px;
   text-align: center;
   margin: 0 auto; }
@@ -19,8 +20,8 @@
   align-items: center;
   flex-wrap: wrap;
   margin: 5em auto;
-  width: 95%;
-  max-width: 95%; }
+  width: 100%;
+  max-width: 100%; }
 
 .icons {
   text-align: center;
@@ -30,14 +31,14 @@
 
 .icons-head {
   font-size: 2em;
-  font-weight: 800; }
+  font-weight: 800;
+  color: #040a11; }
 
 .icons-paragragh {
   font: 400;
   font-size: 1em; }
 
 .icon-col {
-  display: flex;
-  flex-direction: column; }
+  margin-bottom: 2em; }
 
 /*# sourceMappingURL=about-section.css.map */

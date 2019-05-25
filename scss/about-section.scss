@@ -7,9 +7,10 @@
     font-weight: 800;
     font-size: 2.5em;
     margin-bottom: 14px;
+    color: $font-color;
 }
 .section-border {
-    border-bottom: 3px solid $brand-color;
+    border-bottom: 3px solid $font-color;
     width: 60px;
     text-align: center;
     margin: 0 auto;
@@ -22,8 +23,8 @@
     align-items: center;
     flex-wrap: wrap;
     margin: 5em auto;
-    width: 95%;
-    max-width: 95%;
+    width: 100%;
+    max-width: 100%;
 
 }
 .icons {
@@ -35,6 +36,7 @@
 .icons-head {
     font-size: 2em;
     font-weight: 800;
+    color: $font-color;
 }
 .icons-paragragh {
     font: 400;
@@ -42,6 +44,5 @@
 }
 
 .icon-col {
-    display: flex;
-    flex-direction: column;
+   margin-bottom: 2em;
 }
