@@ -162,7 +162,7 @@
   #octagon {
     width: 100px;
     height: 100px;
-    background: red;
+    background: $brand-color;
     position: relative;
   }
   #octagon:before {
@@ -172,7 +172,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    border-bottom: 29px solid red;
+    border-bottom: 29px solid $brand-color;
     border-left: 29px solid #fff;
     border-right: 29px solid #fff;
   }
@@ -183,7 +183,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    border-top: 29px solid red;
+    border-top: 29px solid $brand-color;
     border-left: 29px solid #fff;
     border-right: 29px solid #fff;
   }

@@ -121,7 +121,7 @@ section {
 #octagon {
   width: 100px;
   height: 100px;
-  background: red;
+  background: #3a86ff;
   position: relative; }
 
 #octagon:before {
@@ -131,7 +131,7 @@ section {
   position: absolute;
   top: 0;
   left: 0;
-  border-bottom: 29px solid red;
+  border-bottom: 29px solid #3a86ff;
   border-left: 29px solid #fff;
   border-right: 29px solid #fff; }
 
@@ -142,7 +142,7 @@ section {
   position: absolute;
   bottom: 0;
   left: 0;
-  border-top: 29px solid red;
+  border-top: 29px solid #3a86ff;
   border-left: 29px solid #fff;
   border-right: 29px solid #fff; }
 

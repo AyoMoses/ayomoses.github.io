@@ -17,15 +17,33 @@
 
 
  .icons-wrapper {
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
- }
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 3em 0;
+    width: 100%;
+    max-width: 100%;
+
+    h3 {
+        color: red;
+        margin: 1.2em 0;
+    }
+
+}
 .icons {
     text-align: center;
     justify-content: center;
-    padding: 30px;
+    padding: 27px;
+    color: $white;
 }
 .icon-col {
     margin: 10px;
+
+    p {
+        background: green;
+        justify-content: left;
+        
+    }
 }
