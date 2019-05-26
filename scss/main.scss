@@ -10,6 +10,7 @@
 @import '../css/navigation.css';
 @import '../css/footer.css';
 @import '../css/about-section.css';
+@import '../css/portfolio.css';
 
 @mixin deskTopFirst($media) {
     @media screen and (max-width: $media/16+em) { @content; }

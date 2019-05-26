@@ -62,15 +62,12 @@ figure.snip0056 {
   overflow: hidden;
   margin: 10px;
   min-width: 380px;
-  max-width: 580px;
+  max-width: 480px;
   width: 100%;
   background: $white;
   color: $brand-bg;
 }
-figure.snip0056 * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
+
 figure.snip0056 > img {
   width: 50%;
   border-radius: 50%;
@@ -110,16 +107,20 @@ figure.snip0056 figcaption h2 span {
 figure.snip0056 figcaption p {
   font-size: 0.9em;
   opacity: 0.8;
+  padding: .1em;
 }
 figure.snip0056 figcaption .about-icons {
   width: 100%;
   text-align: left;
 }
 figure.snip0056 figcaption .about-icons i {
-  font-size: 26px;
-  padding: 5px;
+  font-size: 1.625em;
+  padding: .5em;
   top: 50%;
- 
+
+  &:hover {
+      color: $brand-color;
+  }
 }
 figure.snip0056 figcaption a {
   opacity: 0.3;
@@ -128,10 +129,15 @@ figure.snip0056 figcaption a {
   -moz-transition: opacity 0.35s;
   -ms-transition: opacity 0.35s;
   -o-transition: opacity 0.35s;
+  color: $brand-color;
 }
 figure.snip0056 figcaption a:hover {
   opacity: 0.8;
 }
+figure.snip0056 figcaption a:focus {
+    color: darken($color: $brand-color, $amount: 20%);
+} 
+
 figure.snip0056 .position {
   width: 100%;
   text-align: left;
