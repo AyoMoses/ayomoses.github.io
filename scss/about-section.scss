@@ -19,19 +19,20 @@
 
  .icons-wrapper {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    flex-direction: row;
     align-items: center;
-    flex-wrap: wrap;
-    margin: 5em auto;
-    width: 100%;
-    max-width: 100%;
+    // flex-wrap: wrap;
+    margin: $tbt-margin;
+    width: 95%;
+    max-width: 95%;
 
 }
 .icons {
     text-align: center;
     justify-content: center;
-    padding: 27px;
-    color: $white;
+    padding: .6em;
+    color: $brand-color;
 }
 .icons-head {
     font-size: 2em;
@@ -44,5 +45,36 @@
 }
 
 .icon-col {
-   margin-bottom: 2em;
+   flex: 0 0 28%;
+   padding: 1em 1em;
 }
+
+// OCTAGON ABOUT BG
+// #octagon {
+//     width: 100px;
+//     height: 100px;
+//     background: $brand-color;
+//     position: relative;
+// }
+// #octagon:before {
+//     content: "";
+//     width: 100px;
+//     height: 0;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     border-bottom: 29px solid $brand-color;
+//     border-left: 29px solid #fff;
+//     border-right: 29px solid #fff;
+// }
+// #octagon:after {
+// content: "";
+//     width: 100px;
+//     height: 0;
+//     position: absolute;
+//     bottom: 0;
+//     left: 0;
+//     border-top: 29px solid $brand-color;
+//     border-left: 29px solid #fff;
+//     border-right: 29px solid #fff;
+// }

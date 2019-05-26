@@ -16,18 +16,18 @@
 
 .icons-wrapper {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  flex-direction: row;
   align-items: center;
-  flex-wrap: wrap;
-  margin: 5em auto;
-  width: 100%;
-  max-width: 100%; }
+  margin: 2em auto;
+  width: 95%;
+  max-width: 95%; }
 
 .icons {
   text-align: center;
   justify-content: center;
-  padding: 27px;
-  color: #fff; }
+  padding: .6em;
+  color: #3a86ff; }
 
 .icons-head {
   font-size: 2em;
@@ -39,6 +39,7 @@
   font-size: 1em; }
 
 .icon-col {
-  margin-bottom: 2em; }
+  flex: 0 0 28%;
+  padding: 1em 1em; }
 
 /*# sourceMappingURL=about-section.css.map */
