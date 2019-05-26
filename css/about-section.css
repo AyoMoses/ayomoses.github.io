@@ -1,19 +1,6 @@
 /* Coolors Exported Palette - coolors.co/ffbe0b-fb5607-ff006e-8338ec-3a86ff */
 /* HSL */
 /* RGB */
-.section-header {
-  text-align: center;
-  font-weight: 800;
-  font-size: 2.5em;
-  margin-bottom: 14px;
-  color: #040a11; }
-
-.section-border {
-  border-bottom: 3px solid #040a11;
-  width: 60px;
-  text-align: center;
-  margin: 0 auto; }
-
 .icons-wrapper {
   display: flex;
   justify-content: space-around;
