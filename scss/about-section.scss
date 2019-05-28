@@ -3,34 +3,35 @@
 @import '../partials/media_queries';
 
 .icons-wrapper {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    align-items: center;
-    margin: $tbt-margin;
-    width: 95%;
-    max-width: 95%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  
+  width: 95%;
+  max-width: 95%;
 
 }
 .icons {
-    text-align: center;
-    justify-content: center;
-    padding: .6em;
-    color: $brand-color;
+  text-align: center;
+  justify-content: center;
+  padding: .6em;
+  color: $brand-color;
 }
 .icons-head {
-    font-size: 2em;
-    font-weight: 800;
-    color: $font-color;
+  font-size: 2em;
+  font-weight: 800;
+  color: $font-color;
 }
 .icons-paragragh {
-    font: 400;
-    font-size: 1em;
+  font: 400;
+  font-size: 1em;
 }
 
 .icon-col {
-   flex: 0 0 28%;
-   padding: 1em 1em;
+  flex: 0 0 28%;
+  padding: 1em 1em;
 }
 
 
@@ -38,6 +39,7 @@
 .about-card-wrapper {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
 }
 figure.snip0056 {

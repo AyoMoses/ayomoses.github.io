@@ -5,8 +5,8 @@
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
-  margin: 2em auto;
   width: 95%;
   max-width: 95%; }
 
@@ -32,6 +32,7 @@
 .about-card-wrapper {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center; }
 
 figure.snip0056 {

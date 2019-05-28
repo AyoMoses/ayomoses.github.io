@@ -16,7 +16,7 @@
 .container .box {
   position: relative;
   width: 280px;
-  height: 400px;
+  height: 500px;
   margin: 20px 0;
   box-sizing: border-box;
   overflow: hidden; }
@@ -27,13 +27,13 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: #000;
-  clip-path: circle(400px at center 100px);
+  background: #ff006e;
+  clip-path: circle(500px at center 100px);
   transition: 0.5s;
   transition-delay: 0.5s; }
 
 .container .box:hover .imgBx {
-  clip-path: circle(80px at center 100px);
+  clip-path: circle(100px at center 100px);
   transition-delay: 0s; }
 
 .container .box:hover .imgBx img {
@@ -51,19 +51,29 @@
   width: 100%;
   height: 55%;
   padding: 20px;
-  box-sizing: border-box;
   text-align: center; }
 
 .container .box .content h2 {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  color: #ff006e; }
 
 .container .box .content a {
   text-decoration: none;
-  background: #000;
+  background: #ff006e;
   color: #fff;
-  padding: 5px;
-  display: inline-block; }
+  padding: .5em 1em;
+  display: inline-block;
+  transition: all .3s linear 0s !important;
+  -webkit-transition: all .3s linear 0s !important;
+  -moz-transition: all .3s linear 0s !important;
+  -ms-transition: all .3s linear 0s !important;
+  -o-transition: all .3s linear 0s !important; }
+  .container .box .content a:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    background: #b3004d; }
+  .container .box .content a:focus {
+    background: #e60063; }
 
 .container .box .content h2,
 .container .box .content p,
