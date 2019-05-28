@@ -148,14 +148,6 @@
     h1 {
       font-size: 3em;
     }
-
-    p {
-      width: 100%;
-      opacity: .8;
-      line-height: 1.5;
-      font-size: 1.2em;
-      text-align: left;
-    }
   }
 
 .section-header {
@@ -175,7 +167,6 @@
 
 
   section:nth-child(2) {
-    background: $rainbow1;
 
     h1 {
       color: $white;
