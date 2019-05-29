@@ -1,0 +1,20 @@
+@import '../partials/media_queries';
+@import '../partials/palette';
+@import '../partials/variables';
+
+.note__quote {
+    font-size: 2em;
+    margin-top: 1.3em;
+    margin-bottom: 1em;
+    color: $accent-color;
+
+}
+.note__quote2 {
+    font-size: 1.5em;
+    color: $accent-color;
+}
+
+.disqus-wrapper {
+    background: $light-gray;
+    padding: 1em;
+}

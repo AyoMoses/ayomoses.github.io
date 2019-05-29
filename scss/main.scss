@@ -11,6 +11,7 @@
 @import '../css/footer.css';
 @import '../css/about-section.css';
 @import '../css/portfolio-section.css';
+@import '../css/note.css';
 
 @mixin deskTopFirst($media) {
     @media screen and (max-width: $media/16+em) { @content; }
@@ -131,7 +132,7 @@
   }
 
   .page-layer {
-    max-width: 95%;
+    max-width: 98%;
     margin: 0 auto;
   }
 
@@ -140,7 +141,7 @@
     width: 100%;
     max-width: 100%;
     padding: 5em;
-    margin: 2em auto;
+    margin: 1em auto;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -164,7 +165,14 @@
   margin: 0 auto;
 }
   
+.links {
+  color: $accent-color;
 
+  &:hover {
+    text-decoration: underline;
+    color: darken($color: $accent-color, $amount: 10%);
+  }
+}
 
   section:nth-child(2) {
 
@@ -190,10 +198,13 @@
     }
   }
   section:nth-child(3) {
-    background: $rainbow2;
 
     h1 {
-      color: $white;
+      color: $font-color;
+    }
+    p {
+      text-align: justify;
+      line-height: 1.7;
     }
   }
   section:nth-child(4) {

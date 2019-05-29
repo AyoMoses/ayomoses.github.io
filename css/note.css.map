@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAgBA,8EAA8E;AAE9E,SAAS;AAOT,SAAS;ACrBT,YAAa;EACT,SAAS,EAAE,GAAG;EACd,UAAU,EAAE,KAAK;EACjB,aAAa,EAAE,GAAG;EAClB,KAAK,EDPM,OAAoB;;ACUnC,aAAc;EACV,SAAS,EAAE,KAAK;EAChB,KAAK,EDZM,OAAoB;;ACenC,eAAgB;EACZ,UAAU,EDXD,OAAO;ECYhB,OAAO,EAAE,GAAG",
+"sources": ["../partials/_palette.scss","../scss/note.scss"],
+"names": [],
+"file": "note.css"
+}

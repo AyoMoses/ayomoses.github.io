@@ -10,6 +10,7 @@
 @import url(../css/footer.css);
 @import url(../css/about-section.css);
 @import url(../css/portfolio-section.css);
+@import url(../css/note.css);
 @font-face {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -97,7 +98,7 @@ li {
   list-style: none; }
 
 .page-layer {
-  max-width: 95%;
+  max-width: 98%;
   margin: 0 auto; }
 
 section {
@@ -105,7 +106,7 @@ section {
   width: 100%;
   max-width: 100%;
   padding: 5em;
-  margin: 2em auto;
+  margin: 1em auto;
   box-sizing: border-box;
   display: flex;
   flex-direction: column; }
@@ -125,6 +126,12 @@ section {
   text-align: center;
   margin: 0 auto; }
 
+.links {
+  color: #ff006e; }
+  .links:hover {
+    text-decoration: underline;
+    color: #cc0058; }
+
 section:nth-child(2) h1 {
   color: #040a11; }
 section:nth-child(2) .section-border {
@@ -141,10 +148,11 @@ section:nth-child(2) .upTo {
 section:nth-child(2) .upTo__link a {
   color: #ff006e; }
 
-section:nth-child(3) {
-  background: #fb5607; }
-  section:nth-child(3) h1 {
-    color: #fff; }
+section:nth-child(3) h1 {
+  color: #040a11; }
+section:nth-child(3) p {
+  text-align: justify;
+  line-height: 1.7; }
 
 section:nth-child(4) {
   background: #ff006e; }
