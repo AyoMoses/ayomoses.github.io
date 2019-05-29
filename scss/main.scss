@@ -12,6 +12,7 @@
 @import '../css/about-section.css';
 @import '../css/portfolio-section.css';
 @import '../css/note.css';
+@import '../css/contact.css';
 
 @mixin deskTopFirst($media) {
     @media screen and (max-width: $media/16+em) { @content; }
