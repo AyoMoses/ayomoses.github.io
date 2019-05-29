@@ -52,6 +52,7 @@ nav {
 	}
 	@include deskTopFirst(511) {
 		display: inline-block;
+		position: sticky;
 		max-width: 100%;
 		font-size: .6em;
 		padding: .4em;
