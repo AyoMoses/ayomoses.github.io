@@ -127,6 +127,19 @@ section {
 
 section:nth-child(2) h1 {
   color: #040a11; }
+section:nth-child(2) .section-border {
+  margin-bottom: 2em; }
+section:nth-child(2) span {
+  color: #ff006e;
+  font-size: 1.2em;
+  margin: .2em auto;
+  max-width: 400px;
+  text-align: center;
+  color: #040a11; }
+section:nth-child(2) .upTo {
+  color: #ff006e; }
+section:nth-child(2) .upTo__link a {
+  color: #ff006e; }
 
 section:nth-child(3) {
   background: #fb5607; }
