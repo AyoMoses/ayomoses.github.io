@@ -3,15 +3,63 @@
 @import '../partials/variables';
 
 footer {
-    //height 100% fixes the margin bottom primarily
-    background: lighten($color: $brand-color, $amount: 20%);
-    margin: 0;
-    // padding-bottom: -30px; //can be used to address more issues;
+    background: $brand-bg;
     height: 100%;
-    // position: relative; //removes the 10px margin bottom
 }
 .footer-wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+    height: 200px;
+        transition: all .3s linear;
+        -webkit-transition: all .3s linear;
+        -moz-transition: all .3s linear;
+        -ms-transition: all .3s linear;
+        -o-transition: all .3s linear;
+
+    & a {
+        color: $white;
+        padding: .8em;
+    }
+    & li {
+        transition: all .3s linear;
+        -webkit-transition: all .3s linear;
+        -moz-transition: all .3s linear;
+        -ms-transition: all .3s linear;
+        -o-transition: all .3s linear;
+        font-size: 1.3em;
+        border: 2px solid $accent-color;
+        padding: .5em;
+        border-radius: .4em;
+        -webkit-border-radius: .4em;
+        -moz-border-radius: .4em;
+        -ms-border-radius: .4em;
+        -o-border-radius: .4em;
+    }
+    & li:hover {
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        color: $accent-color;
+    }
+}
+.footer__foot {
+    color: white;
+
+    & a {
+        color: $accent-color;
+        transition: all .3s linear;
+        -webkit-transition: all .3s linear;
+        -moz-transition: all .3s linear;
+        -ms-transition: all .3s linear;
+        -o-transition: all .3s linear;
+
+    }
+    & a:hover {
+        color: lighten($color: $accent-color, $amount: 10%);
+    }
 }

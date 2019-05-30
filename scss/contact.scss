@@ -33,7 +33,7 @@
     -moz-transition: all .3s linear;
     -ms-transition: all .3s linear;
     -o-transition: all .3s linear;
-    
+
     &:hover {
         color: lighten($color: $brand-color, $amount: 10%);
         background: darken($color: $brand-color, $amount: 5%);
@@ -47,14 +47,14 @@
         width: 95%;
     }
 }
-.contact-btn, .fa-envelope {
+.contact-btn, .contact-envelope {
     font-size: 1.3em;
     color: darken($color: $brand-color, $amount: 20%);
     @include deskTopFirst(436) {
         font-size: .8em;
     }
 }
-.fa-envelope {
+.contact-envelope {
     @include deskTopFirst(768) {
         margin-right: 1.5em;
     }

@@ -42,15 +42,15 @@
     .contact-btn {
       width: 95%; } }
 
-.contact-btn, .fa-envelope {
+.contact-btn, .contact-envelope {
   font-size: 1.3em;
   color: #0051d3; }
   @media screen and (max-width: 27.25em) {
-    .contact-btn, .fa-envelope {
+    .contact-btn, .contact-envelope {
       font-size: .8em; } }
 
 @media screen and (max-width: 48em) {
-  .fa-envelope {
+  .contact-envelope {
     margin-right: 1.5em; } }
 
 /*# sourceMappingURL=contact.css.map */
