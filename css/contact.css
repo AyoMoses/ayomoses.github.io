@@ -15,4 +15,42 @@
 .contact__notice {
   font-size: 1.125em; }
 
+.contact-btn {
+  background: #3a86ff;
+  border: none;
+  padding: 1em;
+  text-transform: uppercase;
+  border-radius: .3em;
+  -webkit-border-radius: .3em;
+  -moz-border-radius: .3em;
+  -ms-border-radius: .3em;
+  -o-border-radius: .3em;
+  cursor: pointer;
+  width: auto;
+  transition: all .3s linear;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear; }
+  .contact-btn:hover {
+    color: #6da5ff;
+    background: #2176ff;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+  .contact-btn:focus {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1); }
+  @media screen and (max-width: 48em) {
+    .contact-btn {
+      width: 95%; } }
+
+.contact-btn, .fa-envelope {
+  font-size: 1.3em;
+  color: #0051d3; }
+  @media screen and (max-width: 27.25em) {
+    .contact-btn, .fa-envelope {
+      font-size: .8em; } }
+
+@media screen and (max-width: 48em) {
+  .fa-envelope {
+    margin-right: 1.5em; } }
+
 /*# sourceMappingURL=contact.css.map */

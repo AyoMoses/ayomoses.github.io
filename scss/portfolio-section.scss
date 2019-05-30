@@ -61,18 +61,22 @@
     color: $accent-color;
 }
 .container .box .content a {
-    text-decoration: none;
-    background: $accent-color;
-    color: #fff;
-    padding: .5em 1em;
-    display: inline-block;
-    transition: all .3s linear 0s !important;
-    -webkit-transition: all .3s linear 0s !important;
-    -moz-transition: all .3s linear 0s !important;
-    -ms-transition: all .3s linear 0s !important;
-    -o-transition: all .3s linear 0s !important;
-    &:hover
-{
+	text-decoration: none;
+	background: $accent-color;
+	color: #fff;
+	border-radius: .3em;
+	-webkit-border-radius: .3em;
+	-moz-border-radius: .3em;
+	-ms-border-radius: .3em;
+	-o-border-radius: .3em;
+	padding: .5em 1em;
+	display: inline-block;
+	transition: all .3s linear 0s !important;
+	-webkit-transition: all .3s linear 0s !important;
+	-moz-transition: all .3s linear 0s !important;
+	-ms-transition: all .3s linear 0s !important;
+	-o-transition: all .3s linear 0s !important;
+	&:hover {
         box-shadow: $box-shadow-2;
         background: darken($color: $accent-color, $amount: 15%);
     }
