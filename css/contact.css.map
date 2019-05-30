@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAgBA,8EAA8E;AAE9E,SAAS;AAOT,SAAS",
-"sources": ["../partials/_palette.scss"],
+"mappings": "AAgBA,8EAA8E;AAE9E,SAAS;AAOT,SAAS;ACrBT,oBAAqB;EACjB,SAAS,EAAG,QAAQ;EACpB,WAAW,EAAE,GAAG;EAChB,aAAa,EAAE,IAAI;EACnB,KAAK,EAAE,OAAyC;;AAEpD,sBAAuB;EACnB,SAAS,EAAE,MAAM;EACjB,aAAa,EAAE,IAAI;EACnB,KAAK,EDbK,OAAqB;;ACenC,gBAAiB;EACb,SAAS,EAAE,OAAO",
+"sources": ["../partials/_palette.scss","../scss/contact.scss"],
 "names": [],
 "file": "contact.css"
 }

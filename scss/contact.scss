@@ -1,3 +1,18 @@
 @import '../partials/media_queries';
 @import '../partials/palette';
 @import '../partials/variables';
+
+.contact__sub-header {
+    font-size:  2.8125em;
+    font-weight: 800;
+    margin-bottom: .4em;
+    color: darken($color: $brand-color, $amount: 5%);
+}
+.contact__sub-header-2 {
+    font-size: 1.25em;
+    margin-bottom: .4em;
+    color: $brand-color;
+}
+.contact__notice {
+    font-size: 1.125em;
+}
