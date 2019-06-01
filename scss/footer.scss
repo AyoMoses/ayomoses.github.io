@@ -37,6 +37,9 @@ footer {
         -moz-border-radius: .4em;
         -ms-border-radius: .4em;
         -o-border-radius: .4em;
+        @include deskTopFirst(685) {
+            margin-right: 10px;
+        }
     }
     & li:hover {
         transform: scale(1.1);
@@ -49,6 +52,7 @@ footer {
 }
 .footer__foot {
     color: white;
+    text-align: center;
 
     & a {
         color: $accent-color;
@@ -61,5 +65,9 @@ footer {
     }
     & a:hover {
         color: lighten($color: $accent-color, $amount: 10%);
+    }
+
+    @include deskTopFirst(420) {
+        font-size: .8em;
     }
 }

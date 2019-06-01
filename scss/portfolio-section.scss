@@ -29,10 +29,14 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: $accent-color;
+	background: transparent;
 	clip-path: circle(600px at center 100px);
 	transition: 0.5s;
 	transition-delay: 0.5s;
+	
+	@include deskTopFirst(414) {
+		clip-path: circle(250px at center 50px);
+	}
 }
 .container .box:hover .imgBx {
 	clip-path: circle(100px at center 100px);
@@ -58,7 +62,20 @@
 .container .box .content h2 {
 	margin: 0;
     padding: 0;
-    color: $accent-color;
+	color: $accent-color;
+	text-align: center;
+}
+.content {
+	p {
+		@include deskTopFirst(685) {
+			font-size: .8em;
+		}
+		@include deskTopFirst(516) {
+			font-size: .5em;
+			font-weight: 500;
+			padding: 1em;
+		}
+	}
 }
 .container .box .content a {
 	text-decoration: none;

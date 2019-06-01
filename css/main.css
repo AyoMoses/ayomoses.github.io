@@ -107,7 +107,6 @@ section {
   width: 100%;
   max-width: 100%;
   padding: 5em;
-  margin: 1em auto;
   box-sizing: border-box;
   display: flex;
   flex-direction: column; }
@@ -120,6 +119,11 @@ section {
   font-size: 2.5em;
   margin-bottom: 14px;
   color: #040a11; }
+  @media screen and (max-width: 42.8125em) {
+    .section-header {
+      font-size: 2em;
+      font-weight: 500;
+      margin-bottom: 9px; } }
 
 .section-border {
   border-bottom: 3px solid #040a11;
@@ -163,41 +167,5 @@ section:nth-child(3) p {
 .fonts-failed h3,
 .fonts-failed h4 {
   font-family: Georgia, 'Times New Roman', Times, serif; }
-
-/*scroll to top*/
-.scrollToTop {
-  background: transparent;
-  bottom: 1.25em;
-  display: inline-block;
-  height: 3.2em;
-  opacity: 1;
-  background-color: rgba(28, 21, 50, 0.2);
-  position: fixed;
-  right: 1.25em;
-  text-align: center;
-  width: 3.125em;
-  z-index: 100;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s; }
-  .scrollToTop:hover {
-    background-position: 13px -50px;
-    background-color: rgba(28, 21, 50, 0.9);
-    opacity: 1;
-    color: #fff;
-    border: none;
-    text-decoration: none;
-    outline: none;
-    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-    /* Firefox 3.5 - 3.6 */
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */ }
-  .scrollToTop:focus {
-    -webkit-box-shadow: none;
-    box-shadow: none; }
-
-.fa-arrow-up {
-  margin: 30% 0;
-  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

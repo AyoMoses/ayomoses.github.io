@@ -3,12 +3,10 @@
 /* RGB */
 .icons-wrapper {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
-  width: 95%;
-  max-width: 95%; }
+  align-items: center; }
 
 .icons {
   text-align: center;
@@ -18,15 +16,19 @@
 
 .icons-head {
   font-size: 2em;
-  font-weight: 800;
+  font-weight: 600;
   color: #040a11; }
+  @media screen and (max-width: 42.8125em) {
+    .icons-head {
+      font-size: 1.5em;
+      font-weight: 600; } }
 
 .icons-paragragh {
-  font: 400;
+  font-weight: 400;
   font-size: 1em; }
 
 .icon-col {
-  flex: 0 0 28%;
+  flex: 0 0 25%;
   padding: 1em 1em; }
 
 .about-card-wrapper {

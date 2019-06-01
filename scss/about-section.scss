@@ -2,15 +2,26 @@
 @import '../partials/variables';
 @import '../partials/media_queries';
 
+@mixin deskTopFirst($media) {
+  @media screen and (max-width: $media/16+em) { @content; }
+}
+
+@include deskTopFirst(960) {
+
+}
+@include deskTopFirst(685) {
+
+}
+@include deskTopFirst(441) {
+
+}
+
 .icons-wrapper {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  
-  width: 95%;
-  max-width: 95%;
 
 }
 .icons {
@@ -21,16 +32,21 @@
 }
 .icons-head {
   font-size: 2em;
-  font-weight: 800;
+  font-weight: 600;
   color: $font-color;
+
+  @include deskTopFirst(685) {
+    font-size: 1.5em;
+    font-weight: 600;
+  }
 }
 .icons-paragragh {
-  font: 400;
+  font-weight: 400;
   font-size: 1em;
 }
 
 .icon-col {
-  flex: 0 0 28%;
+  flex: 0 0 25%;
   padding: 1em 1em;
 }
 

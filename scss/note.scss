@@ -3,6 +3,12 @@
 @import '../partials/variables';
 .section-note {
     width: 100%;
+    margin: 0 auto;
+
+    p {
+        text-align: justify;
+        width: 100%;
+    }
 }
 
 .note__quote {
@@ -11,9 +17,14 @@
     margin-top: 1.3em;
     color: $accent-color;
 
+    @include deskTopFirst(551) {
+        font-size: 1.3em;
+    }
+
 }
 .note__quote2 {
     font-size: 1.5em;
     font-weight: 300;
     color: $accent-color;
+    font-size: .9em;
 }

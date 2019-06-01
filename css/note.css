@@ -2,17 +2,25 @@
 /* HSL */
 /* RGB */
 .section-note {
-  width: 100%; }
+  width: 100%;
+  margin: 0 auto; }
+  .section-note p {
+    text-align: justify;
+    width: 100%; }
 
 .note__quote {
   font-size: 2em;
   font-weight: 700;
   margin-top: 1.3em;
   color: #ff006e; }
+  @media screen and (max-width: 34.4375em) {
+    .note__quote {
+      font-size: 1.3em; } }
 
 .note__quote2 {
   font-size: 1.5em;
   font-weight: 300;
-  color: #ff006e; }
+  color: #ff006e;
+  font-size: .9em; }
 
 /*# sourceMappingURL=note.css.map */

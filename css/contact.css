@@ -3,17 +3,28 @@
 /* RGB */
 .contact__sub-header {
   font-size: 2.8125em;
-  font-weight: 800;
+  font-weight: 600;
   margin-bottom: .4em;
   color: #2176ff; }
+  @media screen and (max-width: 42.8125em) {
+    .contact__sub-header {
+      font-size: 2em;
+      font-weight: 500; } }
 
 .contact__sub-header-2 {
   font-size: 1.25em;
   margin-bottom: .4em;
   color: #3a86ff; }
+  @media screen and (max-width: 42.8125em) {
+    .contact__sub-header-2 {
+      font-size: 1em; } }
 
 .contact__notice {
   font-size: 1.125em; }
+  @media screen and (max-width: 42.8125em) {
+    .contact__notice {
+      font-size: .8em;
+      text-align: justify; } }
 
 .contact-btn {
   background: #3a86ff;
