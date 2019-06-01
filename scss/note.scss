@@ -1,6 +1,9 @@
 @import '../partials/media_queries';
 @import '../partials/palette';
 @import '../partials/variables';
+.section-note {
+    width: 100%;
+}
 
 .note__quote {
     font-size: 2em;

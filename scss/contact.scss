@@ -19,6 +19,7 @@
 .contact-btn {
     background: $brand-color;
     border: none;
+    outline: none;
     padding: 1em;
     text-transform: uppercase;
     border-radius: .3em;
@@ -35,7 +36,6 @@
     -o-transition: all .3s linear;
 
     &:hover {
-        color: lighten($color: $brand-color, $amount: 10%);
         background: darken($color: $brand-color, $amount: 5%);
         box-shadow: $box-shadow-2;
     }
@@ -49,7 +49,7 @@
 }
 .contact-btn, .contact-envelope {
     font-size: 1.3em;
-    color: darken($color: $brand-color, $amount: 20%);
+    color: $white;
     @include deskTopFirst(436) {
         font-size: .8em;
     }

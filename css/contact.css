@@ -18,6 +18,7 @@
 .contact-btn {
   background: #3a86ff;
   border: none;
+  outline: none;
   padding: 1em;
   text-transform: uppercase;
   border-radius: .3em;
@@ -33,7 +34,6 @@
   -ms-transition: all .3s linear;
   -o-transition: all .3s linear; }
   .contact-btn:hover {
-    color: #6da5ff;
     background: #2176ff;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
   .contact-btn:focus {
@@ -44,7 +44,7 @@
 
 .contact-btn, .contact-envelope {
   font-size: 1.3em;
-  color: #0051d3; }
+  color: #fff; }
   @media screen and (max-width: 27.25em) {
     .contact-btn, .contact-envelope {
       font-size: .8em; } }
