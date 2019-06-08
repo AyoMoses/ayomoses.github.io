@@ -63,6 +63,7 @@
 .contact-btn, .contact-envelope {
     font-size: 1.3em;
     color: $white;
+    font-family: $main-font;
     @include deskTopFirst(436) {
         font-size: .8em;
     }

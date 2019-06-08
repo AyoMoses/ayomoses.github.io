@@ -13,15 +13,20 @@ footer {
     max-width: 80%;
     margin: 0 auto;
     height: 200px;
-        transition: all .3s linear;
-        -webkit-transition: all .3s linear;
-        -moz-transition: all .3s linear;
-        -ms-transition: all .3s linear;
-        -o-transition: all .3s linear;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
 
     & a {
         color: $white;
         padding: .8em;
+
+        &:hover,
+        &:focus {
+            color: $accent-color;
+        }
     }
     & li {
         transition: all .3s linear;
@@ -47,7 +52,6 @@ footer {
         -moz-transform: scale(1.1);
         -ms-transform: scale(1.1);
         -o-transform: scale(1.1);
-        color: $accent-color;
     }
 }
 .footer__foot {

@@ -20,6 +20,8 @@ footer {
   .footer-wrapper a {
     color: #fff;
     padding: .8em; }
+    .footer-wrapper a:hover, .footer-wrapper a:focus {
+      color: #ff006e; }
   .footer-wrapper li {
     transition: all .3s linear;
     -webkit-transition: all .3s linear;
@@ -42,8 +44,7 @@ footer {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    color: #ff006e; }
+    -o-transform: scale(1.1); }
 
 .footer__foot {
   color: white;

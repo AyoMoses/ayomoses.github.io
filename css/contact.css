@@ -55,7 +55,8 @@
 
 .contact-btn, .contact-envelope {
   font-size: 1.3em;
-  color: #fff; }
+  color: #fff;
+  font-family: "Raleway", sans-serif; }
   @media screen and (max-width: 27.25em) {
     .contact-btn, .contact-envelope {
       font-size: .8em; } }
