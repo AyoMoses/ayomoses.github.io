@@ -1,11 +1,3 @@
-// KURSORX SCRIPTS
-// var kursorx = new kursor({
-//     type: 2, //type to of 5
-//     color: 'rgba(251, 86, 7, 1)',
-//     removeDefaultCursor: true
-// })
-
-
 // ANCHOR LINKS ONE PAGE ACTIVE STATE SELECTOR
 let mainNavLinks = document.querySelectorAll("nav ul li a");
 let mainSections = document.querySelectorAll("main section");
