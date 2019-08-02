@@ -2,6 +2,8 @@
 @import '../partials/palette';
 @import '../partials/variables';
 
+// REMEMBER TO DOWNLOAD RUBY AND THE SASS gem install sass ... sass --watch scss:css
+
 .portfolio-wrapper {
     display: flex;
 	justify-content: center;
