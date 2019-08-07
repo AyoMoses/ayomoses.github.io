@@ -6,16 +6,6 @@
   @media screen and (max-width: $media/16+em) { @content; }
 }
 
-@include deskTopFirst(960) {
-
-}
-@include deskTopFirst(685) {
-
-}
-@include deskTopFirst(441) {
-
-}
-
 .icons-wrapper {
   display: flex;
   justify-content: space-evenly;
@@ -23,10 +13,16 @@
   flex-wrap: wrap;
   align-items: center;
 
+  @include deskTopFirst(768) {
+
+    justify-content: center;
+  }
+
 }
 .icons {
+  
+  justify-self: center;
   text-align: center;
-  justify-content: center;
   padding: .6em;
   color: $brand-color;
 }
@@ -43,115 +39,207 @@
 .icons-paragragh {
   font-weight: 400;
   font-size: 1em;
+
+  @include deskTopFirst(768) {
+
+    font-weight: 400;
+    font-size: .8em;
+  }
 }
 
 .icon-col {
-  flex: 0 0 25%;
+  
+  flex: 1 0 25%;
   padding: 1em 1em;
+
+  @include deskTopFirst(768) {
+
+    flex: 1 0 18%;
+    padding: .5em .5em;
+  }
 }
 
 
 // CARD STYLE
 .about-card-wrapper {
+
+  margin-top: 3em;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  flex-wrap: wrap;
+  align-content: center;
   align-items: center;
-}
-figure.snip0056 {
-  font-family: $header-font;
-  position: relative;
-  overflow: hidden;
-  margin: 10px;
-  min-width: 380px;
-  max-width: 480px;
-  width: 100%;
-  background: $white;
-  color: $brand-bg;
+
+  .portfolio-image {
+
+    
+    border: 3px solid $light-gray;
+    width: 350px;
+    max-width: 100%;
+    min-width: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: .5em;
+    margin-bottom: -70px;
+    z-index: 5;
+
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);      
+              -webkit-transform: translatey(0px);
+    -webkit-animation: float 6s ease-in-out infinite; 
+
+    @include deskTopFirst(768) {
+
+      margin-bottom: -40px;
+      padding: .5em;
+    }
+  }
+
+
+  .about-card__content {
+
+    border: 2px solid $light-gray;
+    padding: .5em .8em;
+
+    h2 {
+
+      font-size: 3em;
+      margin-top: 1.4em;
+
+      & span {
+
+        color: $accent-color;
+      }
+
+      @include deskTopFirst(768) {
+
+        font-size: 2em;
+      }
+    }
+
+    p {
+
+      font-size: 1.5em;
+      text-align: justify;
+
+      &:first-of-type::first-letter {
+
+        color: $accent-color;
+        font-size: 2em;
+      }
+
+      & span {
+
+        font-weight: 800;
+        color: $accent-color;
+      }
+      
+      @include deskTopFirst(768) {
+
+        font-size: 1.2em;
+      }
+    }
+
+    & .about-icons {
+
+      margin-top: 3em;
+
+      & a {
+
+        color: $brand-color;
+        transition: all linear .2s;
+       
+        -webkit-transition: all linear .2s;
+        -moz-transition: all linear .2s;
+        -ms-transition: all linear .2s;
+        -o-transition: all linear .2s;
+
+        &:hover {
+
+          color: darken($color: $brand-color,$amount: 3%);    
+          
+        }
+
+        & i {
+
+          font-size: 2em;
+
+          margin-right: .8em;
+
+          &:nth-child(3) {
+
+            margin-right: 0;
+          }
+        }
+      }
+
+    }
+  }
+
 }
 
-figure.snip0056 > img {
-  width: 50%;
-  border-radius: 50%;
-  border: 4px solid $white;
-  -webkit-transition: all 0.35s ease-in-out;
-  transition: all 0.35s ease-in-out;
-  -webkit-transform: scale(1.6);
-  transform: scale(1.6);
-  position: relative;
-  float: right;
-  right: -18%;
-  z-index: 1;
-}
-figure.snip0056 figcaption {
-  padding: 20px 30px 20px 20px;
-  position: absolute;
-  left: 0;
-  width: 50%;
-}
-figure.snip0056 figcaption h2,
-figure.snip0056 figcaption p {
-  margin: 0;
-  text-align: left;
-  padding: 10px 0;
-  width: 100%;
-}
-figure.snip0056 figcaption h2 {
-  font-size: 1.3em;
-  font-weight: 300;
-  text-transform: uppercase;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-}
-figure.snip0056 figcaption h2 span {
-  font-weight: 800;
-  color: $accent-color;
-}
-figure.snip0056 figcaption p {
-  font-size: 0.9em;
-  opacity: 0.8;
-  padding: .1em;
-}
-figure.snip0056 figcaption .about-icons {
-  width: 100%;
-  text-align: left;
-}
-figure.snip0056 figcaption .about-icons i {
-  font-size: 1.625em;
-  padding: .5em;
-  top: 50%;
 
-  &:hover {
-      color: $brand-color;
+
+
+// ANIMATION KEYFRAMES
+@keyframes float {
+  0% {
+      box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+      transform: translatey(0px);
+  }
+  50% {
+      box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+      transform: translatey(-15px);
+  }
+  100% {
+      box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+      transform: translatey(0px);
   }
 }
-figure.snip0056 figcaption a {
-  opacity: 0.3;
-  -webkit-transition: opacity 0.35s;
-  transition: opacity 0.35s;
-  -moz-transition: opacity 0.35s;
-  -ms-transition: opacity 0.35s;
-  -o-transition: opacity 0.35s;
-  color: $brand-color;
-}
-figure.snip0056 figcaption a:hover {
-  opacity: 0.8;
-}
-figure.snip0056 figcaption a:focus {
-    color: darken($color: $brand-color, $amount: 20%);
-} 
 
-figure.snip0056 .position {
-  width: 100%;
-  text-align: left;
-  padding: 15px 30px;
-  font-size: 0.9em;
-  opacity: 1;
-  font-style: italic;
-  color: $white;
-  background: $brand-bg;
-  clear: both;
+@-webkit-keyframes float {
+  0% {
+      box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+      transform: translatey(0px);
+  }
+  50% {
+      box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+      transform: translatey(-15px);
+  }
+  100% {
+      box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+      transform: translatey(0px);
+  }
 }
-figure.snip0056:hover > img,
-figure.snip0056.hover > img {
-  right: -12%;
+
+@-moz-keyframes float {
+  0% {
+      box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+      transform: translatey(0px);
+  }
+  50% {
+      box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+      transform: translatey(-15px);
+  }
+  100% {
+      box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+      transform: translatey(0px);
+  }
+}
+
+@-o-keyframes float {
+  0% {
+      box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+      transform: translatey(0px);
+  }
+  50% {
+      box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+      transform: translatey(-15px);
+  }
+  100% {
+      box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+      transform: translatey(0px);
+  }
 }
