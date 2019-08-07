@@ -46,9 +46,9 @@
   -o-transition: all .3s linear; }
   .contact-btn:hover {
     background: #2176ff;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+    box-shadow: 0 8px 16px 0 rgba(58, 134, 255, 0.7); }
   .contact-btn:focus {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1); }
+    box-shadow: 0 4px 8px 0 rgba(58, 134, 255, 0.1); }
   @media screen and (max-width: 48em) {
     .contact-btn {
       width: 95%; } }
