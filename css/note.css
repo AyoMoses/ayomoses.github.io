@@ -7,6 +7,16 @@
   .section-note p {
     text-align: justify;
     width: 100%; }
+  .section-note .accent {
+    color: #ff006e;
+    filter: brightness(120%);
+    -webkit-filter: brightness(120%);
+    font-weight: bolder; }
+  .section-note .primary {
+    color: #3a86ff;
+    filter: brightness(120%);
+    -webkit-filter: brightness(120%);
+    font-weight: bolder; }
 
 .note__quote {
   font-size: 2em;

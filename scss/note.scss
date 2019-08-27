@@ -9,6 +9,21 @@
         text-align: justify;
         width: 100%;
     }
+
+    .accent {
+
+        color: $accent-color;
+        filter: brightness(120%);
+        -webkit-filter: brightness(120%);
+        font-weight: bolder;
+    }
+    .primary {
+
+        color: $brand-color;
+        filter: brightness(120%);
+        -webkit-filter: brightness(120%);
+        font-weight: bolder;
+    }
 }
 
 .note__quote {
