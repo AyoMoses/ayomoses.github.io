@@ -4,7 +4,7 @@
 
 .contact__sub-header {
 
-    font-size:  2.8125em;
+    font-size: 2.8125em;
     font-weight: 600;
     margin-bottom: .4em;
     color: darken($color: $brand-color, $amount: 5%);
@@ -14,6 +14,7 @@
         font-weight: 500;
     }
 }
+
 .contact__sub-header-2 {
 
     font-size: 1.25em;
@@ -24,6 +25,7 @@
         font-size: 1em;
     }
 }
+
 .contact__notice {
 
     font-size: 1.125em;
@@ -57,9 +59,10 @@
     &:hover {
 
         background: darken($color: $brand-color, $amount: 5%);
-        
+
         box-shadow: 0 8px 16px 0 rgba($color: $brand-color, $alpha: .7);
     }
+
     &:focus {
 
         box-shadow: 0 4px 8px 0 rgba($color: $brand-color, $alpha: .1);
@@ -69,7 +72,9 @@
         width: 95%;
     }
 }
-.contact-btn, .contact-envelope {
+
+.contact-btn,
+.contact-envelope {
 
     font-size: 1.3em;
     color: $white;
@@ -79,6 +84,7 @@
         font-size: .8em;
     }
 }
+
 .contact-envelope {
 
     @include deskTopFirst(768) {

@@ -18,189 +18,220 @@
         width: 15px;
         height: 15px;
         background: $white;
-        
+
         &:nth-child(3n+1) {
             background: transparent;
             border: 1px solid $white;
         }
+
         &:nth-child(2n+1) {
             background: transparent;
             border: 1px solid $white;
         }
+
         &:nth-child(1) {
             top: 50%;
             left: 2%;
             animation: animate 10s linear infinite;
             -webkit-animation: animate 10s linear infinite;
         }
+
         &:nth-child(2) {
             bottom: 2%;
             left: 5%;
             animation: animate 8s linear infinite;
             -webkit-animation: animate 8s linear infinite;
         }
+
         &:nth-child(3) {
             top: 9%;
             left: 6%;
             animation: animate 4s linear infinite;
             -webkit-animation: animate 4s linear infinite;
         }
+
         &:nth-child(4) {
             top: 35%;
             left: 10%;
             animation: animate 13s linear infinite;
             -webkit-animation: animate 13s linear infinite;
         }
+
         &:nth-child(5) {
             bottom: 15%;
             left: 17%;
             animation: animate 18s linear infinite;
             -webkit-animation: animate 18s linear infinite;
         }
+
         &:nth-child(6) {
             bottom: 4%;
             left: 45%;
             animation: animate 7s linear infinite;
             -webkit-animation: animate 7s linear infinite;
         }
+
         &:nth-child(7) {
             top: 4%;
             right: 60%;
             animation: animate 11s linear infinite;
             -webkit-animation: animate 11s linear infinite;
         }
+
         &:nth-child(8) {
             top: 7%;
             right: 10%;
             animation: animate 1s linear infinite;
             -webkit-animation: animate 1s linear infinite;
         }
+
         &:nth-child(9) {
             top: 50%;
             right: 5%;
             animation: animate 14s linear infinite;
             -webkit-animation: animate 14s linear infinite;
         }
+
         &:nth-child(10) {
             bottom: 4%;
             right: 2%;
             animation: animate 9s linear infinite;
             -webkit-animation: animate 9s linear infinite;
         }
+
         &:nth-child(11) {
             top: 30%;
             right: 1%;
             animation: animate 2s linear infinite;
             -webkit-animation: animate 2s linear infinite;
         }
+
         &:nth-child(12) {
             bottom: 2%;
             right: 25%;
             animation: animate 5s linear infinite;
             -webkit-animation: animate 5s linear infinite;
         }
+
         &:nth-child(13) {
             bottom: 17%;
             right: 12%;
             animation: animate 12s linear infinite;
             -webkit-animation: animate 12s linear infinite;
         }
+
         &:nth-child(14) {
             top: 4%;
             right: 20%;
             animation: animate 9s linear infinite;
             -webkit-animation: animate 9s linear infinite;
         }
+
         &:nth-child(15) {
             top: 6%;
             right: 32%;
             animation: animate 3s linear infinite;
             -webkit-animation: animate 3s linear infinite;
-}
+        }
+
         &:nth-child(16) {
             top: 14%;
             right: 11%;
             animation: animate 5s linear infinite;
             -webkit-animation: animate 5s linear infinite;
-}
+        }
+
         &:nth-child(17) {
             top: 6%;
             left: 32%;
             animation: animate 3s linear infinite;
             -webkit-animation: animate 3s linear infinite;
-}
+        }
+
         &:nth-child(18) {
             top: 16%;
             left: 22%;
             animation: animate 1s linear infinite;
             -webkit-animation: animate 1s linear infinite;
-}
+        }
+
         &:nth-child(19) {
             bottom: 29%;
             left: 32%;
             animation: animate 6s linear infinite;
             -webkit-animation: animate 6s linear infinite;
-}
+        }
+
         &:nth-child(20) {
             bottom: 19%;
             left: 4%;
             animation: animate 7s linear infinite;
             -webkit-animation: animate 7s linear infinite;
-}
+        }
+
         &:nth-child(21) {
             top: 67%;
             right: 44%;
             animation: animate 6s linear infinite;
             -webkit-animation: animate 6s linear infinite;
-}
+        }
+
         &:nth-child(22) {
             bottom: 6%;
             left: 44%;
             animation: animate 9s linear infinite;
             -webkit-animation: animate 9s linear infinite;
-}
+        }
+
         &:nth-child(23) {
             top: 36%;
             right: 32%;
             animation: animate 2s linear infinite;
             -webkit-animation: animate 2s linear infinite;
-}
+        }
+
         &:nth-child(24) {
             bottom: 6%;
             left: 22%;
             animation: animate 5s linear infinite;
             -webkit-animation: animate 5s linear infinite;
-}
+        }
+
         &:nth-child(25) {
             top: 8%;
             right: 2%;
             animation: animate 8s linear infinite;
             -webkit-animation: animate 8s linear infinite;
-}
+        }
+
         &:nth-child(26) {
             bottom: 16%;
             right: 18%;
             animation: animate 5s linear infinite;
             -webkit-animation: animate 5s linear infinite;
-}
+        }
+
         &:nth-child(27) {
             bottom: 6%;
             left: 17%;
             animation: animate 10s linear infinite;
             -webkit-animation: animate 10s linear infinite;
-}
+        }
+
         &:nth-child(28) {
             top: 9%;
             left: 12%;
             animation: animate 4s linear infinite;
             -webkit-animation: animate 4s linear infinite;
-}
+        }
+
         &:nth-child(29) {
             top: 9%;
             left: 49%;
             animation: animate 7s linear infinite;
             -webkit-animation: animate 7s linear infinite;
-}
+        }
+
         &:nth-child(30) {
             top: 4%;
             left: 4%;
@@ -229,42 +260,50 @@
     width: 95%;
     margin: 0 auto;
     padding: .2em .2em;
-    
+
 
     & .cta__header {
         color: $white;
+
         @include deskTopFirst(768) {
             font-size: 1.2em;
             display: flex;
             flex-direction: column;
         }
+
         @include deskTopFirst(618) {
             font-size: 1.1em;
             display: flex;
             flex-direction: column;
         }
     }
+
     & p {
         color: $brand-color;
+
         @include deskTopFirst(768) {
             font-size: 1em;
             display: flex;
             flex-direction: column;
         }
+
         @include deskTopFirst(618) {
             font-size: .8em;
             display: flex;
             flex-direction: column;
         }
     }
+
     & .cta__name {
         animation: hero__headerAnimate 12s infinite 0s linear;
         -webkit-animation: hero__headerAnimate 12s infinite 0s linear;
         color: $accent-color;
     }
+
     & .cta__notice {
         color: $brand-color;
     }
+
     & .cta__intro {
         color: $white;
         margin: .8em auto;
@@ -272,6 +311,7 @@
         display: block;
         font-weight: 500;
     }
+
     & .fa-smile-wink {
         color: white;
     }
@@ -334,7 +374,7 @@
 
     &::before {
         bottom: 0;
-}
+    }
 
     &:hover::before {
         height: 100%;
@@ -371,35 +411,71 @@
     }
 }
 
-@-webkit-keyframes moveUpDown{
-    0%{
+@-webkit-keyframes moveUpDown {
+    0% {
         bottom: 0;
     }
-    50%{
-       bottom: 7px;
+
+    50% {
+        bottom: 7px;
     }
-    100%{
+
+    100% {
+        bottom: 0;
+    }
+}
+
+@keyframes moveUpDown {
+    0% {
+        bottom: 0;
+    }
+
+    50% {
+        bottom: 7px;
+    }
+
+    100% {
         bottom: 0;
     }
 }
 
 // HERO TEXT ANIMATION
-@-webkit-keyframes hero__headerAnimate{
-    0%{
+@-webkit-keyframes hero__headerAnimate {
+    0% {
         color: $accent-color;
     }
-    51%{
+
+    51% {
         color: $rainbow1;
         font-weight: 900;
     }
-    100%{
+
+    100% {
         color: $accent-color;
         font-weight: 900;
     }
 }
 
-@-webkit-keyframes animate { //using -webkit-keyframes display on mobile chrome
-    0%{
+@keyframes hero__headerAnimate {
+    0% {
+        color: $accent-color;
+    }
+
+    51% {
+        color: $rainbow1;
+        font-weight: 900;
+    }
+
+    100% {
+        color: $accent-color;
+        font-weight: 900;
+    }
+}
+
+@-webkit-keyframes animate {
+
+    //using -webkit-keyframes display on mobile chrome
+    0% {
         transform: scale(0) translateY(0) rotate(0deg);
         -webkit-transform: scale(0) translateY(0) rotate(0deg);
         -moz-transform: scale(0) translateY(0) rotate(0deg);
@@ -407,7 +483,30 @@
         -o-transform: scale(0) translateY(0) rotate(0deg);
         opacity: 1;
     }
-    100%{
+
+    100% {
+        transform: scale(1) translateY(-50px) rotate(360deg);
+        -webkit-transform: scale(1) translateY(-50px) rotate(360deg);
+        -moz-transform: scale(1) translateY(-50px) rotate(360deg);
+        -ms-transform: scale(1) translateY(-50px) rotate(360deg);
+        -o-transform: scale(1) translateY(-50px) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+@keyframes animate {
+
+    //using -webkit-keyframes display on mobile chrome
+    0% {
+        transform: scale(0) translateY(0) rotate(0deg);
+        -webkit-transform: scale(0) translateY(0) rotate(0deg);
+        -moz-transform: scale(0) translateY(0) rotate(0deg);
+        -ms-transform: scale(0) translateY(0) rotate(0deg);
+        -o-transform: scale(0) translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+
+    100% {
         transform: scale(1) translateY(-50px) rotate(360deg);
         -webkit-transform: scale(1) translateY(-50px) rotate(360deg);
         -moz-transform: scale(1) translateY(-50px) rotate(360deg);
@@ -419,13 +518,29 @@
 
 
 @-webkit-keyframes bgChange {
-    0%{
+    0% {
         background: $brand-bg;
     }
-    50%{
+
+    50% {
         background: lighten($color: $brand-bg, $amount: 5%);
     }
-    100%{
+
+    100% {
+        background: $brand-bg;
+    }
+}
+
+@keyframes bgChange {
+    0% {
+        background: $brand-bg;
+    }
+
+    50% {
+        background: lighten($color: $brand-bg, $amount: 5%);
+    }
+
+    100% {
         background: $brand-bg;
     }
 }

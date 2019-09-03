@@ -101,5 +101,8 @@ nav ul li a:last-child {
 @-webkit-keyframes slideIn {
   to {
     transform: translateX(0); } }
+@keyframes slideIn {
+  to {
+    transform: translateX(0); } }
 
 /*# sourceMappingURL=navigation.css.map */

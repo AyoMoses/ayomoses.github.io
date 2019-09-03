@@ -66,7 +66,7 @@ body {
   background-color: rgba(58, 134, 255, 0.7); }
 
 p {
-  font-family: 'Raleway' sans-serif;
+  font-family: "Raleway" sans-serif;
   color: #040a11;
   text-align: center;
   text-justify: inter-word;
@@ -85,7 +85,10 @@ img {
   -o-object-position: center;
   object-position: center; }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: 'Raleway', serif;
   color: #3a86ff;
   margin: 0;
@@ -173,5 +176,17 @@ section:nth-child(3) p {
 .fonts-failed h3,
 .fonts-failed h4 {
   font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.accent {
+  color: #ff006e;
+  filter: brightness(120%);
+  -webkit-filter: brightness(120%);
+  font-weight: bolder; }
+
+.primary {
+  color: #3a86ff;
+  filter: brightness(120%);
+  -webkit-filter: brightness(120%);
+  font-weight: bolder; }
 
 /*# sourceMappingURL=main.css.map */

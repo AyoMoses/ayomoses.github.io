@@ -6,6 +6,7 @@ footer {
     background: $brand-bg;
     height: 100%;
 }
+
 .footer-wrapper {
     display: flex;
     justify-content: space-evenly;
@@ -28,6 +29,7 @@ footer {
             color: $accent-color;
         }
     }
+
     & li {
         transition: all .3s linear;
         -webkit-transition: all .3s linear;
@@ -42,10 +44,12 @@ footer {
         -moz-border-radius: .4em;
         -ms-border-radius: .4em;
         -o-border-radius: .4em;
+
         @include deskTopFirst(685) {
             margin-right: 10px;
         }
     }
+
     & li:hover {
         transform: scale(1.1);
         -webkit-transform: scale(1.1);
@@ -54,6 +58,7 @@ footer {
         -o-transform: scale(1.1);
     }
 }
+
 .footer__foot {
     color: white;
     text-align: center;
@@ -67,6 +72,7 @@ footer {
         -o-transition: all .3s linear;
 
     }
+
     & a:hover {
         color: lighten($color: $accent-color, $amount: 10%);
     }

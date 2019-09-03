@@ -1,6 +1,7 @@
 @import '../partials/media_queries';
 @import '../partials/palette';
 @import '../partials/variables';
+
 .section-note {
     width: 100%;
     margin: 0 auto;
@@ -17,6 +18,7 @@
         -webkit-filter: brightness(120%);
         font-weight: bolder;
     }
+
     .primary {
 
         color: $brand-color;
@@ -37,6 +39,7 @@
     }
 
 }
+
 .note__quote2 {
     font-size: 1.5em;
     font-weight: 300;
