@@ -170,7 +170,7 @@
 
 
 
-                        <p>My framework(s) and library(s) include <span>ANGULAR</span>, <span>Reactjs</span>, and
+                        <p>My framework(s) and library(s) include <span>Angular</span>, <span>Reactjs</span>, and
                             <span>Ruby on Rails</span> I improve daily on my trade. I am flexible to
                             take up any framework as the project manager deems fit.</p>
 
@@ -206,6 +206,23 @@
                         <!-- PROJECT 1 -->
                         <div class="box" data-aos="fade-up" data-aos-duration="3000">
                             <div class="imgBx">
+                                <img src="images/7.png" alt="project-image">
+                            </div>
+                            <div class="content">
+                                <h2>Divine Catering</h2>
+                                <p>
+                                    <b class="accent">Current project - </b>
+                                    A food ordering service in Moscow, Russia. Front-End UI/UX development. Design to
+                                    code integrations. Hope to share update soon. <b class="accent">Languages:</b>
+                                    Angular, Typescript, Nextjs, AWS, and Firebase.
+                                </p>
+                                <a href="#0">Visit site</a>
+                            </div>
+                        </div>
+
+                        <!-- PROJECT -->
+                        <div class="box" data-aos="fade-up" data-aos-duration="3000">
+                            <div class="imgBx">
                                 <img src="./images/5-800.png" alt="project-image" srcset="./images/5-300.png 300w,
                                             ./images/5-500.png 500w,
                                             ./images/5-800.png 800w">
@@ -216,7 +233,7 @@
                                     An e-commerce project for a cheese factory company in Europe. Pixel perfect design,
                                     UI/UX development and front-end engineering.
                                     Friendly and flexbile mobile view for better user experience. <b
-                                        class="accent">Languages:</b> Angularjs, Nextjs, AWS, and Firebase.
+                                        class="accent">Languages:</b> Angular, Typescript, Nextjs, AWS, and Firebase.
                                 </p>
                                 <a href="https://cheese-factory.firebaseapp.com" target="_blank">Visit site</a>
                             </div>
@@ -360,30 +377,12 @@
                     to learn and grow and my goal is to someday, work on a freelance.
                 </p>
                 <p>
-                    With my Bachelors’ Degree in History/International Relations, I intend to keep each note as i
+                    I intend to keep each note as i
                     develop a new "point O"
                     of my portfolio. This will be my training and integration field. I mean, It is mine and I love what
                     I've been able to
                     achieve in a short time.
                 </p>
-
-                <p>
-                    <b class="accent">Update:</b> Embarked on my first project in Angularjs with a team of 5. When I got
-                    the invite to join the team, I got cold feets
-                    and neither did I sleep till morning. Why? I just didn't want to mess it up. I wanted to deliver
-                    too. Did I mess up? Yes I did!!! Did i clean it up?
-                    Yes!!! Am I who I was before I started the project? NO!!! You know after spending over 10 - 12 hours
-                    max a day most times on the project or either doing
-                    research to solve an issue. Not to mention swollen shoulder. I remember the day i got so frustrated
-                    and cried but after all these, I can say "We all don't know
-                    it all and the hard things soon become easy if you persist". I value growth and anything that will
-                    challenge me and that explains why I get tired of doing the same
-                    thing over and over again but not loving my woman though or fellowshipping with God (LOL). The
-                    project, is yet to reach its completion and work is still on going
-                    so, do forgive any error you see on the hosting app for now. <b class="accent">Published:</b> <b
-                        class="primary">27th Aug, 2019.</b>
-                </p>
-
 
             </section>
 
@@ -421,6 +420,12 @@
 
     <!-- ANIMATE ON SCROLL -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">var scrolltotop = { setting: { startline: 100, scrollto: 0, scrollduration: 1e3, fadeduration: [500, 100] }, controlHTML: '<img src="images/icons8-long-arrow-up-100.png" />', controlattrs: { offsetx: 5, offsety: 5 }, anchorkeyword: "#top", state: { isvisible: !1, shouldvisible: !1 }, scrollup: function () { this.cssfixedsupport || this.$control.css({ opacity: 0 }); var t = isNaN(this.setting.scrollto) ? this.setting.scrollto : parseInt(this.setting.scrollto); t = "string" == typeof t && 1 == jQuery("#" + t).length ? jQuery("#" + t).offset().top : 0, this.$body.animate({ scrollTop: t }, this.setting.scrollduration) }, keepfixed: function () { var t = jQuery(window), o = t.scrollLeft() + t.width() - this.$control.width() - this.controlattrs.offsetx, s = t.scrollTop() + t.height() - this.$control.height() - this.controlattrs.offsety; this.$control.css({ left: o + "px", top: s + "px" }) }, togglecontrol: function () { var t = jQuery(window).scrollTop(); this.cssfixedsupport || this.keepfixed(), this.state.shouldvisible = t >= this.setting.startline ? !0 : !1, this.state.shouldvisible && !this.state.isvisible ? (this.$control.stop().animate({ opacity: 1 }, this.setting.fadeduration[0]), this.state.isvisible = !0) : 0 == this.state.shouldvisible && this.state.isvisible && (this.$control.stop().animate({ opacity: 0 }, this.setting.fadeduration[1]), this.state.isvisible = !1) }, init: function () { jQuery(document).ready(function (t) { var o = scrolltotop, s = document.all; o.cssfixedsupport = !s || s && "CSS1Compat" == document.compatMode && window.XMLHttpRequest, o.$body = t(window.opera ? "CSS1Compat" == document.compatMode ? "html" : "body" : "html,body"), o.$control = t('<div id="topcontrol">' + o.controlHTML + "</div>").css({ position: o.cssfixedsupport ? "fixed" : "absolute", bottom: o.controlattrs.offsety, right: o.controlattrs.offsetx, opacity: 0, cursor: "pointer" }).attr({ title: "Scroll to Top" }).click(function () { return o.scrollup(), !1 }).appendTo("body"), document.all && !window.XMLHttpRequest && "" != o.$control.text() && o.$control.css({ width: o.$control.width() }), o.togglecontrol(), t('a[href="' + o.anchorkeyword + '"]').click(function () { return o.scrollup(), !1 }), t(window).bind("scroll resize", function (t) { o.togglecontrol() }) }) } }; scrolltotop.init();
+    </script>
+    <noscript>Not seeing a <a href="https://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more
+        info.</noscript>
+
 
     <!-- BASIC SCRIPTS -->
     <script src="js/fontfaceobserver.js"></script>

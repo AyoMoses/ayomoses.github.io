@@ -113,17 +113,6 @@
           margin-right: .8em; }
           .about-card-wrapper .about-card__content .about-icons a i:nth-child(3) {
             margin-right: 0; }
-    @media screen and (min-width: 75em) {
-      .about-card-wrapper .about-card__content {
-        transition: all .3s ease-in;
-        -webkit-transition: all .3s ease-in;
-        -moz-transition: all .3s ease-in;
-        -ms-transition: all .3s ease-in;
-        -o-transition: all .3s ease-in; }
-        .about-card-wrapper .about-card__content:hover {
-          background: #07121e; }
-        .about-card-wrapper .about-card__content:hover {
-          color: #fff; } }
 
 @keyframes float {
   0% {
