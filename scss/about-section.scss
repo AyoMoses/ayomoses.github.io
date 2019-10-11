@@ -7,6 +7,11 @@
     @content;
   }
 }
+@mixin mobileFirst($media) {
+  @media screen and (min-width: $media/16+em) {
+    @content;
+  }
+}
 
 .icons-wrapper {
   display: flex;
@@ -186,6 +191,7 @@
       }
 
     }
+
   }
 
 }
