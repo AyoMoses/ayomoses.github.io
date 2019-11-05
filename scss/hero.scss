@@ -368,9 +368,15 @@
 }
 
 .cta__button {
+
     border: 1px solid $brand-color;
     padding: 0.8125em 1.25em;
     position: relative;
+    border-radius: .3em;
+    -webkit-border-radius: .3em;
+    -moz-border-radius: .3em;
+    -ms-border-radius: .3em;
+    -o-border-radius: .3em;
 
     &::before {
         bottom: 0;
