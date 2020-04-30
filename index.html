@@ -20,7 +20,34 @@
     <link rel="stylesheet" href="assets/all.min.css">
     <link rel="shortcut icon" href="images/favicon.jpeg" type="image/jpeg">
 
+    <!-- Start of Async Drift Code -->
+    <script>
+        "use strict";
 
+        !function () {
+            var t = window.driftt = window.drift = window.driftt || [];
+            if (!t.init) {
+                if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+                t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
+                    t.factory = function (e) {
+                        return function () {
+                            var n = Array.prototype.slice.call(arguments);
+                            return n.unshift(e), t.push(n), t;
+                        };
+                    }, t.methods.forEach(function (e) {
+                        t[e] = t.factory(e);
+                    }), t.load = function (t) {
+                        var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+                        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                        var i = document.getElementsByTagName("script")[0];
+                        i.parentNode.insertBefore(o, i);
+                    };
+            }
+        }();
+        drift.SNIPPET_VERSION = '0.3.1';
+        drift.load('ra66ciefyhw5');
+    </script>
+    <!-- End of Async Drift Code -->
 
 </head>
 
@@ -62,7 +89,8 @@
             </div>
             <div class="hero-cta-box">
                 <h1 class="cta__header">Hi there! I'm <span class="cta__name">Ayodeji Moses Odukoya</span>
-                    <span class="cta__intro">I'm your Front-End Web Developer and your UI/UX guy. Nice to have you here</span>
+                    <span class="cta__intro">I'm your Front-End Web Developer and your UI/UX guy. Nice to have you
+                        here</span>
                 </h1>
                 <a href="#section-portfolio"><button class="hero__btn cta__button">Explore my portfolio</button></a>
             </div>
@@ -156,7 +184,8 @@
                         <p>
 
                             I work with <span>Html, CSS, SCSS, Bootstrap, Tailwind CSS, and JavaScript.</span> I take up
-                            <span>wordpress</span> projects if required by clients as previous projects on wordpress are shown in my selected projects section. I'm with a
+                            <span>wordpress</span> projects if required by clients as previous projects on wordpress are
+                            shown in my selected projects section. I'm with a
                             good familiarity
                             working with a team on <span>Github</span> and <span>Git</span> terminal. My day-to-day
                             operating system is
@@ -167,7 +196,8 @@
 
 
                         <p>
-                            My framework(s) and library(s) include <span>Angular</span>, <span>Reactjs</span>, <span>React Native</span> and,
+                            My framework(s) and library(s) include <span>Angular</span>, <span>Reactjs</span>,
+                            <span>React Native</span> and,
                             <span>Ruby on Rails</span>. I improve daily on my trade. I am flexible to
                             take up any framework as the project manager or client deems fit.
                         </p>

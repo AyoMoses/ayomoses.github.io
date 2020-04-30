@@ -5,6 +5,7 @@
 footer {
     background: $brand-bg;
     height: 100%;
+    margin-bottom: 0;
 }
 
 .footer-wrapper {
@@ -62,6 +63,7 @@ footer {
 .footer__foot {
     color: white;
     text-align: center;
+    margin-bottom: 0;
 
     & a {
         color: $accent-color;
