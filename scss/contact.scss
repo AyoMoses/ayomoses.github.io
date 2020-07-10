@@ -29,10 +29,10 @@
 .contact__notice {
 
     font-size: 1.125em;
+    text-align: center;
 
     @include deskTopFirst(685) {
         font-size: .8em;
-        text-align: justify;
     }
 }
 
