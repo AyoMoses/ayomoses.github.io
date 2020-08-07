@@ -1,0 +1,85 @@
+@import '../partials/media_queries';
+@import '../partials/palette';
+@import '../partials/variables';
+
+footer {
+    background: $brand-bg;
+    height: 100%;
+    margin-bottom: 0;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+    height: 200px;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+
+    & a {
+        color: $white;
+        padding: .8em;
+
+        &:hover,
+        &:focus {
+            color: $accent-color;
+        }
+    }
+
+    & li {
+        transition: all .3s linear;
+        -webkit-transition: all .3s linear;
+        -moz-transition: all .3s linear;
+        -ms-transition: all .3s linear;
+        -o-transition: all .3s linear;
+        font-size: 1.3em;
+        border: 2px solid $accent-color;
+        padding: .5em;
+        border-radius: .4em;
+        -webkit-border-radius: .4em;
+        -moz-border-radius: .4em;
+        -ms-border-radius: .4em;
+        -o-border-radius: .4em;
+
+        @include deskTopFirst(685) {
+            margin-right: 10px;
+        }
+    }
+
+    & li:hover {
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+    }
+}
+
+.footer__foot {
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+
+    & a {
+        color: $accent-color;
+        transition: all .3s linear;
+        -webkit-transition: all .3s linear;
+        -moz-transition: all .3s linear;
+        -ms-transition: all .3s linear;
+        -o-transition: all .3s linear;
+
+    }
+
+    & a:hover {
+        color: lighten($color: $accent-color, $amount: 10%);
+    }
+
+    @include deskTopFirst(420) {
+        font-size: .8em;
+    }
+}

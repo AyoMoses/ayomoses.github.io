@@ -1,0 +1,48 @@
+@import '../partials/media_queries';
+@import '../partials/palette';
+@import '../partials/variables';
+
+.section-note {
+    width: 100%;
+    margin: 0 auto;
+
+    p {
+        text-align: justify;
+        width: 100%;
+    }
+
+    .accent {
+
+        color: $accent-color;
+        filter: brightness(120%);
+        -webkit-filter: brightness(120%);
+        font-weight: bolder;
+    }
+
+    .primary {
+
+        color: $brand-color;
+        filter: brightness(120%);
+        -webkit-filter: brightness(120%);
+        font-weight: bolder;
+    }
+}
+
+.note__quote {
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: 1.3em;
+    color: $accent-color;
+
+    @include deskTopFirst(551) {
+        font-size: 1.3em;
+    }
+
+}
+
+.note__quote2 {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: $accent-color;
+    font-size: .9em;
+}

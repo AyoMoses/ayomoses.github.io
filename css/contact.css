@@ -1,0 +1,70 @@
+/* Coolors Exported Palette - coolors.co/ffbe0b-fb5607-ff006e-8338ec-3a86ff */
+/* HSL */
+/* RGB */
+.contact__sub-header {
+  font-size: 2.8125em;
+  font-weight: 600;
+  margin-bottom: .4em;
+  color: #2176ff; }
+  @media screen and (max-width: 42.8125em) {
+    .contact__sub-header {
+      font-size: 2em;
+      font-weight: 500; } }
+
+.contact__sub-header-2 {
+  font-size: 1.25em;
+  margin-bottom: .4em;
+  color: #3a86ff; }
+  @media screen and (max-width: 42.8125em) {
+    .contact__sub-header-2 {
+      font-size: 1em; } }
+
+.contact__notice {
+  font-size: 1.125em; }
+  @media screen and (max-width: 42.8125em) {
+    .contact__notice {
+      font-size: .8em;
+      text-align: justify; } }
+
+.contact-btn {
+  background: #3a86ff;
+  border: none;
+  outline: none;
+  padding: 1em;
+  text-transform: uppercase;
+  border-radius: .3em;
+  -webkit-border-radius: .3em;
+  -moz-border-radius: .3em;
+  -ms-border-radius: .3em;
+  -o-border-radius: .3em;
+  cursor: pointer;
+  width: auto;
+  transition: all .3s linear;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear; }
+  .contact-btn:hover {
+    background: #2176ff;
+    box-shadow: 0 8px 16px 0 rgba(58, 134, 255, 0.7); }
+  .contact-btn:focus {
+    box-shadow: 0 4px 8px 0 rgba(58, 134, 255, 0.1); }
+  @media screen and (max-width: 48em) {
+    .contact-btn {
+      width: 95%; } }
+
+.contact-btn,
+.contact-envelope {
+  font-size: 1.3em;
+  color: #fff;
+  font-family: "Raleway", sans-serif; }
+  @media screen and (max-width: 27.25em) {
+    .contact-btn,
+    .contact-envelope {
+      font-size: .8em; } }
+
+@media screen and (max-width: 48em) {
+  .contact-envelope {
+    margin-right: 1.5em; } }
+
+/*# sourceMappingURL=contact.css.map */
